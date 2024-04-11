@@ -150,7 +150,7 @@
     "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-react": "^7.28.0",
-    "express": "^4.17.2",
+    "express": "^4.19.2",
     "glob": "^7.2.0",
     "gonzales-pe": "^4.3.0",
     "highcharts": "^7.2.1",
