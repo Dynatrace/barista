@@ -28,6 +28,8 @@ import {
   STICKY_POSITIONING_LISTENER,
   _CoalescedStyleScheduler,
   _COALESCED_STYLE_SCHEDULER,
+  CdkTable,
+  CDK_TABLE,
 } from '@angular/cdk/table';
 import { DOCUMENT } from '@angular/common';
 import {
@@ -67,6 +69,8 @@ import { _DtTableBase } from '@dynatrace/barista-components/table';
       provide: _VIEW_REPEATER_STRATEGY,
       useClass: _DisposeViewRepeaterStrategy,
     },
+    { provide: CdkTable, useExisting: DtTreeTable },
+    { provide: CDK_TABLE, useExisting: DtTreeTable },
   ],
 })
 export class DtTreeTable<T> extends _DtTableBase<T> {

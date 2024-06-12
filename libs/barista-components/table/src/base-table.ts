@@ -32,6 +32,7 @@ import {
   StickyPositioningListener,
   _COALESCED_STYLE_SCHEDULER,
   STICKY_POSITIONING_LISTENER,
+  CDK_TABLE,
 } from '@angular/cdk/table';
 import { DOCUMENT } from '@angular/common';
 import {
@@ -57,6 +58,8 @@ import {
       provide: _VIEW_REPEATER_STRATEGY,
       useClass: _DisposeViewRepeaterStrategy,
     },
+    { provide: CdkTable, useExisting: _DtTableBase },
+    { provide: CDK_TABLE, useExisting: _DtTableBase },
   ],
 })
 // eslint-disable-next-line @typescript-eslint/naming-convention

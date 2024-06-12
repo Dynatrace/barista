@@ -33,7 +33,6 @@ import {
 import {
   ComponentFixture,
   TestBed,
-  waitForAsync,
   fakeAsync,
   flush,
   inject,
@@ -79,23 +78,21 @@ export function createFixture<T>(
 }
 
 describe('DtDrawer', () => {
-  beforeEach(
-    waitForAsync(() => {
-      TestBed.configureTestingModule({
-        imports: [DtDrawerModule, NoopAnimationsModule],
-        declarations: [
-          NoDrawerTestApp,
-          BasicTestApp,
-          FailingTestApp,
-          TestAppOverMode,
-          TestAppDrawerOpened,
-          TestAppWithOverAndSideMode,
-        ],
-      });
+  beforeEach(async () => {
+    TestBed.configureTestingModule({
+      imports: [DtDrawerModule, NoopAnimationsModule],
+      declarations: [
+        NoDrawerTestApp,
+        BasicTestApp,
+        FailingTestApp,
+        TestAppOverMode,
+        TestAppDrawerOpened,
+        TestAppWithOverAndSideMode,
+      ],
+    });
 
-      TestBed.compileComponents();
-    }),
-  );
+    await TestBed.compileComponents();
+  });
 
   describe('validate drawers', () => {
     it('should throw if there are two drawers with the same mode in the container', () => {
@@ -442,16 +439,14 @@ describe('DtDrawer screen sizes', () => {
   let breakpointManager: BreakpointObserver;
   let mediaMatcher: FakeMediaMatcher;
 
-  beforeEach(
-    waitForAsync(() => {
-      TestBed.configureTestingModule({
-        imports: [LayoutModule, DtDrawerModule, NoopAnimationsModule],
-        declarations: [BasicTestApp],
-        providers: [{ provide: MediaMatcher, useClass: FakeMediaMatcher }],
-      });
-      TestBed.compileComponents();
-    }),
-  );
+  beforeEach(async () => {
+    TestBed.configureTestingModule({
+      imports: [LayoutModule, DtDrawerModule, NoopAnimationsModule],
+      declarations: [BasicTestApp],
+      providers: [{ provide: MediaMatcher, useClass: FakeMediaMatcher }],
+    });
+    await TestBed.compileComponents();
+  });
 
   beforeEach(inject(
     [BreakpointObserver, MediaMatcher],

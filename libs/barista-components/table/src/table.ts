@@ -66,6 +66,8 @@ import {
   STICKY_POSITIONING_LISTENER,
   _CoalescedStyleScheduler,
   _COALESCED_STYLE_SCHEDULER,
+  CdkTable,
+  CDK_TABLE,
 } from '@angular/cdk/table';
 import { ViewportRuler } from '@angular/cdk/scrolling';
 import { DtTableSelection } from './selection/selection';
@@ -100,6 +102,8 @@ let nextUniqueId = 0;
       provide: _VIEW_REPEATER_STRATEGY,
       useClass: _DisposeViewRepeaterStrategy,
     },
+    { provide: CdkTable, useExisting: DtTable },
+    { provide: CDK_TABLE, useExisting: DtTable },
   ],
 })
 export class DtTable<T> extends _DtTableBase<T> implements OnDestroy {

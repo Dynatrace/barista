@@ -20,9 +20,7 @@ import {
   HttpInterceptor,
   HttpRequest,
 } from '@angular/common/http';
-import { Inject, Injectable, Optional } from '@angular/core';
-import { REQUEST } from '@nguniversal/express-engine/tokens';
-import { Request } from 'express';
+import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 /**
@@ -32,8 +30,6 @@ import { Observable } from 'rxjs';
  */
 @Injectable()
 export class UniversalInterceptor implements HttpInterceptor {
-  constructor(@Optional() @Inject(REQUEST) protected request?: Request) {}
-
   /**
    * Universal interceptor for all HTTP requests
    * to add the absolute url for the server rendering.
@@ -42,15 +38,8 @@ export class UniversalInterceptor implements HttpInterceptor {
     req: HttpRequest<T>,
     next: HttpHandler,
   ): Observable<HttpEvent<T>> {
-    let serverReq: HttpRequest<T> = req;
-    if (this.request) {
-      let newUrl = `${this.request.protocol}://${this.request.get('host')}`;
-      if (!req.url.startsWith('/')) {
-        newUrl += '/';
-      }
-      newUrl += req.url;
-      serverReq = req.clone({ url: newUrl });
-    }
+    const serverReq: HttpRequest<T> = req;
+
     return next.handle(serverReq);
   }
 }
