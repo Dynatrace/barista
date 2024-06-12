@@ -5,19 +5,12 @@
   "projectType": "library",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "tools/pull-request-labeler/src/**/*.ts",
-          "tools/pull-request-labeler/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "tools/pull-request-labeler/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "tools/pull-request-labeler/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/tools/pull-request-labeler"]
     }

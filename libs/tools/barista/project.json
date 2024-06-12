@@ -35,19 +35,12 @@
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/tools/barista/src/**/*.ts",
-          "libs/tools/barista/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/tools/barista/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/tools/barista/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/tools/barista"]
     }

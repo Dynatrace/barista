@@ -1,14 +1,4 @@
 {
-  "npmScope": "dynatrace",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": ["build", "test", "lint", "e2e", "lint-styles"],
-        "parallel": 3
-      }
-    }
-  },
   "affected": {
     "defaultBase": "master"
   },
@@ -36,13 +26,31 @@
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": ["production", "^production"]
+      "inputs": ["production", "^production"],
+      "cache": true
     },
-    "test": {
-      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
+    "e2e": {
+      "cache": true
     },
-    "lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"]
+    "lint-styles": {
+      "cache": true
+    },
+    "@nx/jest:jest": {
+      "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"],
+      "cache": true,
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "@nx/eslint:lint": {
+      "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
+      "cache": true
     }
   },
   "namedInputs": {
@@ -55,5 +63,6 @@
       "{workspaceRoot}/tsconfig.base.json"
     ],
     "production": ["default", "!{projectRoot}/src/test-setup.[jt]s"]
-  }
+  },
+  "parallel": 3
 }

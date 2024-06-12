@@ -5,19 +5,12 @@
   "projectType": "library",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/shared/node/src/**/*.ts",
-          "libs/shared/node/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/shared/node/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/shared/node/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/shared/node"]
     }

@@ -6,13 +6,7 @@
   "prefix": "dt",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/barista-components/confirmation-dialog/src/**/*.ts",
-          "libs/barista-components/confirmation-dialog/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -29,8 +23,7 @@
         "{workspaceRoot}/coverage/libs/barista-components/confirmation-dialog"
       ],
       "options": {
-        "jestConfig": "libs/barista-components/confirmation-dialog/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/barista-components/confirmation-dialog/jest.config.ts"
       }
     }
   },

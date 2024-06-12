@@ -6,19 +6,12 @@
   "generators": {},
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/testing/browser/src/**/*.ts",
-          "libs/testing/browser/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/testing/browser/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/testing/browser/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/testing/browser"]
     }

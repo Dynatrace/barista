@@ -6,19 +6,12 @@
   "prefix": "dynatrace",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/shared/design-system/interfaces/src/**/*.ts",
-          "libs/shared/design-system/interfaces/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/shared/design-system/interfaces/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/shared/design-system/interfaces/jest.config.ts"
       },
       "outputs": [
         "{workspaceRoot}/coverage/libs/shared/design-system/interfaces"

@@ -22,18 +22,13 @@
       "outputs": ["{options.outputPath}"]
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/tools/shareable-examples/src/**/*.ts",
-          "libs/tools/shareable-examples/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/tools/shareable-examples/jest.config.ts"
+        "jestConfig": "libs/tools/shareable-examples/jest.config.ts",
+        "passWithNoTests": false
       },
       "outputs": ["{workspaceRoot}/coverage/libs/tools/shareable-examples"]
     }

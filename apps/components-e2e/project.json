@@ -65,11 +65,11 @@
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
       "options": {
-        "browserTarget": "components-e2e:build"
+        "buildTarget": "components-e2e:build"
       },
       "configurations": {
         "production": {
-          "browserTarget": "components-e2e:build:production"
+          "buildTarget": "components-e2e:build:production"
         }
       }
     },
@@ -120,13 +120,7 @@
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "apps/components-e2e/src/**/*.ts",
-          "apps/components-e2e/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -140,8 +134,7 @@
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "apps/components-e2e/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "apps/components-e2e/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/apps/components-e2e"]
     }

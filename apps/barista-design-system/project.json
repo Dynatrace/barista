@@ -212,24 +212,18 @@
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
       "options": {
-        "browserTarget": "barista-design-system:build-frontend"
+        "buildTarget": "barista-design-system:build-frontend"
       }
     },
     "serve-ssr": {
-      "executor": "@nguniversal/builders:ssr-dev-server",
+      "executor": "@angular-devkit/build-angular:ssr-dev-server",
       "options": {
         "browserTarget": "barista-design-system:build-frontend",
         "serverTarget": "barista-design-system:build-server"
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "apps/barista-design-system/src/**/*.ts",
-          "apps/barista-design-system/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -243,8 +237,7 @@
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "apps/barista-design-system/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "apps/barista-design-system/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/apps/barista-design-system"]
     }

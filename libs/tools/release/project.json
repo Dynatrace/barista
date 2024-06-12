@@ -52,19 +52,12 @@
       "outputs": ["{options.outputPath}"]
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/tools/release/src/**/*.ts",
-          "libs/tools/release/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/tools/release/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/tools/release/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/tools/release"]
     }

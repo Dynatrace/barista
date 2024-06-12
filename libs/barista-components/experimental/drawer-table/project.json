@@ -6,13 +6,7 @@
   "prefix": "dt",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/barista-components/experimental/drawer-table/src/**/*.ts",
-          "libs/barista-components/experimental/drawer-table/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -31,8 +25,7 @@
         "{workspaceRoot}/coverage/libs/barista-components/experimental/drawer-table"
       ],
       "options": {
-        "jestConfig": "libs/barista-components/experimental/drawer-table/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/barista-components/experimental/drawer-table/jest.config.ts"
       }
     }
   },

@@ -6,19 +6,12 @@
   "generators": {},
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/testing/fixtures/src/**/*.ts",
-          "libs/testing/fixtures/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/testing/fixtures/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/testing/fixtures/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/testing/fixtures"]
     }

@@ -20,3 +20,5 @@
 
 # Added file by the CI to detect BaseSHA
 index.js
+
+/.nx/cache

@@ -12,13 +12,7 @@
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/barista-components/schematics/src/**/*.ts",
-          "libs/barista-components/schematics/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -32,8 +26,7 @@
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/barista-components/schematics/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/barista-components/schematics/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/barista-components/schematics"]
     }

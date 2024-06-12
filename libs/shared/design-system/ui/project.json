@@ -6,19 +6,12 @@
   "prefix": "ds",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/shared/design-system/ui/src/**/*.ts",
-          "libs/shared/design-system/ui/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/shared/design-system/ui/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/shared/design-system/ui/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/shared/design-system/ui"]
     }

@@ -6,13 +6,7 @@
   "prefix": "dt",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/barista-components/empty-state/src/**/*.ts",
-          "libs/barista-components/empty-state/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -29,8 +23,7 @@
         "{workspaceRoot}/coverage/libs/barista-components/empty-state"
       ],
       "options": {
-        "jestConfig": "libs/barista-components/empty-state/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/barista-components/empty-state/jest.config.ts"
       }
     }
   },

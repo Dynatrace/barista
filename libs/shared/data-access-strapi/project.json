@@ -6,19 +6,12 @@
   "prefix": "dynatrace",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/shared/data-access-strapi/src/**/*.ts",
-          "libs/shared/data-access-strapi/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/shared/data-access-strapi/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/shared/data-access-strapi/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/shared/data-access-strapi"]
     }

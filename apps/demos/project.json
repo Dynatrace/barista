@@ -93,18 +93,12 @@
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
       "options": {
-        "browserTarget": "demos:build-frontend",
-        "host": "localhost"
+        "host": "localhost",
+        "buildTarget": "demos:build-frontend"
       }
     },
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "apps/demos/src/**/*.ts",
-          "apps/demos/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",

@@ -6,19 +6,12 @@
   "generators": {},
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/workspace/src/**/*.ts",
-          "libs/workspace/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "test": {
       "executor": "@nx/jest:jest",
       "options": {
-        "jestConfig": "libs/workspace/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/workspace/jest.config.ts"
       },
       "outputs": ["{workspaceRoot}/coverage/libs/workspace"]
     },

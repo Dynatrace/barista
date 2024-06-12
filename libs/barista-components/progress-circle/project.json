@@ -6,13 +6,7 @@
   "prefix": "dt",
   "targets": {
     "lint": {
-      "executor": "@nx/linter:eslint",
-      "options": {
-        "lintFilePatterns": [
-          "libs/barista-components/progress-circle/src/**/*.ts",
-          "libs/barista-components/progress-circle/src/**/*.html"
-        ]
-      }
+      "executor": "@nx/eslint:lint"
     },
     "lint-styles": {
       "executor": "./dist/libs/workspace:stylelint",
@@ -29,8 +23,7 @@
         "{workspaceRoot}/coverage/libs/barista-components/progress-circle"
       ],
       "options": {
-        "jestConfig": "libs/barista-components/progress-circle/jest.config.ts",
-        "passWithNoTests": true
+        "jestConfig": "libs/barista-components/progress-circle/jest.config.ts"
       }
     }
   },
