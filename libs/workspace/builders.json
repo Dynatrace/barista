@@ -2,22 +2,22 @@
   "$schema": "../../node_modules/@angular-devkit/architect/src/builders-schema.json",
   "builders": {
     "build-barista": {
-      "implementation": "./src/builders/barista-build/builder",
+      "implementation": "./barista/barista-components/libs/workspace/src/builders/barista-build/builder",
       "schema": "./src/builders/barista-build/schema.json",
       "description": "The build-barista builder is used to generate static html pages for barista."
     },
     "stylelint": {
-      "implementation": "./src/builders/stylelint/index",
+      "implementation": "./barista/barista-components/libs/workspace/src/builders/stylelint/index",
       "schema": "./src/builders/stylelint/schema.json",
       "description": "Run stylelint against all style files."
     },
     "packager": {
-      "implementation": "./src/builders/packager/index",
+      "implementation": "./barista/barista-components/libs/workspace/src/builders/packager/index",
       "schema": "./src/builders/packager/schema.json",
       "description": "Run packaging steps"
     },
     "typescript": {
-      "implementation": "./src/builders/typescript/index",
+      "implementation": "./barista/barista-components/libs/workspace/src/builders/typescript/index",
       "schema": "./src/builders/typescript/schema.json",
       "description": "Compile typescript files."
     }

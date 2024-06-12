@@ -20,18 +20,43 @@ import {
   BuilderOutput,
   Target,
 } from '@angular-devkit/architect';
-import { Schema as AngularJson } from '@angular/cli/lib/config/workspace-schema';
-import { writeFileSync } from 'fs';
+import { writeFileSync, promises as fs } from 'fs';
 import { join, dirname, resolve } from 'path';
 import { green } from 'chalk';
-import {
-  NgPackagerJson,
-  PackageJson,
-  tryJsonParse,
-} from '@dynatrace/shared/node';
+
 import { copyAssets, copyStyles } from './copy-assets';
 import { PackagerOptions } from './schema';
 import { syncNgVersion, syncBaristaComponentsVersion } from './sync-version';
+
+interface NgPackagerJson {
+  dest: string;
+}
+
+async function tryJsonParse<T>(path: string): Promise<T> {
+  try {
+    return JSON.parse(await fs.readFile(path, { encoding: 'utf-8' })) as T;
+  } catch (err) {
+    throw new Error(`Error while parsing json file at ${path}`);
+  }
+}
+
+interface PackageJson {
+  version?: string;
+  peerDependencies?: {
+    [key: string]: string;
+  };
+  dependencies?: {
+    [key: string]: string;
+  };
+  devDependencies?: {
+    [key: string]: string;
+  };
+  license?: string;
+  author?: string;
+  main?: string;
+  module?: string;
+  typings?: string;
+}
 
 /**
  * This runs all necessary steps to create a bundle for the library

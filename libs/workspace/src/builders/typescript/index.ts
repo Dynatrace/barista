@@ -19,11 +19,36 @@ import {
   BuilderOutput,
   createBuilder,
 } from '@angular-devkit/architect';
-import { join, resolve } from 'path';
+import { join, resolve as pathResolve } from 'path';
 import { statSync } from 'fs';
 import { TypescriptBuilderOptions } from './schema';
 import { JsonObject } from '@angular-devkit/core';
-import { executeCommand } from '@dynatrace/shared/node';
+import { exec, ExecOptions } from 'child_process';
+
+/**
+ * Spawns a shell then executes the command within that shell
+ */
+export async function executeCommand(
+  command: string,
+  cwd?: string,
+): Promise<string> {
+  const maxBuffer = 1024 * 1024 * 10;
+
+  const options: ExecOptions = {
+    cwd: cwd || process.cwd(),
+    maxBuffer,
+  };
+
+  return new Promise((resolve, reject) => {
+    exec(command, options, (err, stdout, _) => {
+      if (err !== null) {
+        reject(stdout);
+      } else {
+        resolve(stdout);
+      }
+    });
+  });
+}
 
 /** Compiles typescript files using tsc */
 async function run(
@@ -47,7 +72,9 @@ async function run(
   }
   try {
     const logOutput = await executeCommand(
-      `${resolve('node_modules/.bin/tsc')} -p ${configFile}${outDirArgument}`,
+      `${pathResolve(
+        'node_modules/.bin/tsc',
+      )} -p ${configFile}${outDirArgument}`,
     );
     if (logOutput) {
       context.logger.info(logOutput);

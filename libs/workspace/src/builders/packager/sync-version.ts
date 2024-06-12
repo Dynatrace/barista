@@ -14,7 +14,23 @@
  * limitations under the License.
  */
 
-import { PackageJson } from '@dynatrace/shared/node';
+interface PackageJson {
+  version?: string;
+  peerDependencies?: {
+    [key: string]: string;
+  };
+  dependencies?: {
+    [key: string]: string;
+  };
+  devDependencies?: {
+    [key: string]: string;
+  };
+  license?: string;
+  author?: string;
+  main?: string;
+  module?: string;
+  typings?: string;
+}
 
 /**
  * Writes the version of the root package.json to the one of the build artifact

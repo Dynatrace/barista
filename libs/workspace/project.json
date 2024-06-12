@@ -16,14 +16,12 @@
       "outputs": ["{workspaceRoot}/coverage/libs/workspace"]
     },
     "build": {
-      "executor": "@nrwl/webpack:webpack",
+      "executor": "@nrwl/js:tsc",
       "options": {
         "outputPath": "dist/libs/workspace",
         "main": "libs/workspace/src/index.ts",
         "tsConfig": "libs/workspace/tsconfig.lib.json",
-        "webpackConfig": "libs/workspace/webpack.config.js",
-        "maxWorkers": 6,
-        "progress": false,
+        "rootDir": "../../",
         "assets": [
           {
             "input": "./libs/workspace/src",
@@ -35,10 +33,7 @@
             "glob": "{package,builders,collection}.json",
             "output": "."
           }
-        ],
-        "buildLibsFromSource": true,
-        "target": "node",
-        "compiler": "tsc"
+        ]
       },
       "configurations": {
         "watch": {

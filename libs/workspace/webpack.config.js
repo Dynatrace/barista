@@ -13,9 +13,9 @@ const entries = [
 ];
 
 module.exports = (config) => {
-  // enable dynamic chunks
-  config.output.filename = '[name].js';
-  // reset entries
+  // // enable dynamic chunks
+  // config.output.filename = '[name].js';
+  // // reset entries
   config.entry = {};
 
   for (const entry of entries) {
@@ -23,15 +23,15 @@ module.exports = (config) => {
     config.entry[name] = [join(__dirname, entry)];
   }
 
-  // cacheUnaffected is enabled by default, but cannot be used with optimization
-  // useExports true/global.
-  config.experiments.cacheUnaffected = false;
+  // // cacheUnaffected is enabled by default, but cannot be used with optimization
+  // // useExports true/global.
+  // config.experiments.cacheUnaffected = false;
 
-  // Add tree shaking with terser
-  config.optimization = {
-    usedExports: 'global',
-    minimizer: [new TerserPlugin()],
-  };
+  // // Add tree shaking with terser
+  // config.optimization = {
+  //   usedExports: 'global',
+  //   minimizer: [new TerserPlugin()],
+  // };
 
   return config;
 };
