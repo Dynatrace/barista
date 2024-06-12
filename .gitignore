@@ -40,6 +40,7 @@ report.*.json
 .npmrc
 .yarnrc
 .env
+.nx
 
 # e2e
 /e2e/*.js
