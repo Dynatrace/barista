@@ -1,0 +1,4 @@
+*.js
+*.json
+*.txt
+!icons.json

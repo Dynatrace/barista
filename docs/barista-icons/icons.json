@@ -1,0 +1,3748 @@
+{
+  "title": "Icons",
+  "description": "On this page you find a list of all available icons.",
+  "layout": "iconOverview",
+  "icons": [
+    {
+      "title": "Abort",
+      "public": true,
+      "tags": ["control", "x", "cancel", "stop", "quit"],
+      "name": "abort"
+    },
+    {
+      "title": "Actions per session",
+      "public": true,
+      "tags": [
+        "click path",
+        "path",
+        "universal",
+        "arrow",
+        "click",
+        "session",
+        "activity",
+        "task",
+        "operations"
+      ],
+      "name": "actionspersession"
+    },
+    {
+      "title": "Add column left",
+      "public": true,
+      "tags": [
+        "add",
+        "plus",
+        "bar",
+        "control",
+        "left",
+        "column",
+        "pillar",
+        "structure",
+        "compression",
+        "arrange",
+        "organize",
+        "left",
+        "table",
+        "chart",
+        "layout"
+      ],
+      "name": "addcolumnleft"
+    },
+    {
+      "title": "Add column right",
+      "public": true,
+      "tags": [
+        "add",
+        "plus",
+        "bar",
+        "control",
+        "right",
+        "column",
+        "pillar",
+        "structure",
+        "compression",
+        "arrange",
+        "organize",
+        "table",
+        "chart",
+        "layout"
+      ],
+      "name": "addcolumnright"
+    },
+    {
+      "title": "Add row on bottom",
+      "public": true,
+      "tags": [
+        "control",
+        "row",
+        "rows",
+        "structure",
+        "arrange",
+        "add",
+        "plus",
+        "table",
+        "chart",
+        "hierarchy",
+        "layout"
+      ],
+      "name": "addrowonbottom"
+    },
+    {
+      "title": "Add row on top",
+      "public": true,
+      "tags": [
+        "control",
+        "row",
+        "rows",
+        "structure",
+        "arrange",
+        "add",
+        "plus",
+        "table",
+        "chart",
+        "top",
+        "above",
+        "hierarchy",
+        "atop",
+        "layout",
+        "top"
+      ],
+      "name": "addrowontop"
+    },
+    {
+      "title": "Airplane",
+      "public": true,
+      "tags": [
+        "universal",
+        "airplane",
+        "aircraft",
+        "transport",
+        "transportation",
+        "plane",
+        "public",
+        "aviation",
+        "pilot",
+        "wings"
+      ],
+      "name": "airplane"
+    },
+    {
+      "title": "Alarm off",
+      "public": true,
+      "tags": [
+        "control",
+        "alarm",
+        "alert",
+        "turn off",
+        "bell",
+        "strike out",
+        "cross out",
+        "end",
+        "stop",
+        "warning",
+        "signal",
+        "signaling device",
+        "ringer",
+        "alarm bell",
+        null
+      ],
+      "name": "alarm-off"
+    },
+    {
+      "title": "Alarm on",
+      "public": true,
+      "tags": [
+        "control",
+        "alarm",
+        "alert",
+        "begin",
+        "launch",
+        "set up",
+        "start",
+        "bell",
+        "warning",
+        "signal",
+        "signaling device",
+        "ringer",
+        "alarm bell"
+      ],
+      "name": "alarm-on"
+    },
+    {
+      "title": "Alert notification",
+      "public": true,
+      "tags": [
+        "control",
+        "alert",
+        "alarm",
+        "alarm bell",
+        "signal",
+        "start",
+        "clock",
+        "alarm clock",
+        "ticker",
+        "time",
+        "watch",
+        "signaling device",
+        "ringer"
+      ],
+      "name": "alert-notification"
+    },
+    {
+      "title": "Analyze",
+      "public": true,
+      "tags": [
+        "universal",
+        "analyze",
+        "magnifier",
+        "loupe",
+        "magnifying glass",
+        "evaluate",
+        "inspect",
+        "interpret",
+        "study",
+        "pulse",
+        "pulsating",
+        "graph"
+      ],
+      "name": "analyze"
+    },
+    {
+      "title": "AND NOT",
+      "public": true,
+      "tags": [
+        "control",
+        "not",
+        "circle",
+        "negative",
+        "minus",
+        "intersection",
+        "circle",
+        "ring",
+        "cycle",
+        "inner circle",
+        "outer circle",
+        "exception",
+        "operator"
+      ],
+      "name": "and-not"
+    },
+    {
+      "title": "AND",
+      "public": true,
+      "tags": [
+        "control",
+        "and",
+        "circle",
+        "plus",
+        "add",
+        "intersection",
+        "circle",
+        "ring",
+        "cycle",
+        "inner circle",
+        "outer circle",
+        "connection",
+        "operator"
+      ],
+      "name": "and"
+    },
+    {
+      "title": "Appliance",
+      "public": true,
+      "tags": ["universal", "list", "stack", "device", "gadget", "tool"],
+      "name": "appliance"
+    },
+    {
+      "title": "Application",
+      "public": true,
+      "tags": [
+        "universal",
+        "comb",
+        "hexagon",
+        "app",
+        "software",
+        "mobile",
+        "business",
+        "entertainment",
+        "education",
+        "media",
+        "product",
+        "engineering",
+        "contour",
+        "outline"
+      ],
+      "name": "application"
+    },
+    {
+      "title": "Application health",
+      "public": true,
+      "tags": [
+        "universal",
+        "app",
+        "health",
+        "speedometer",
+        "speed indicator",
+        "indicator",
+        "speedometer",
+        "health rule",
+        "measuring",
+        "control",
+        "monitoring",
+        "bug-fix",
+        "hexagon",
+        "comb"
+      ],
+      "name": "applicationhealth"
+    },
+    {
+      "title": "Application network monitoring",
+      "public": true,
+      "tags": [
+        "universal",
+        "app",
+        "data",
+        "connection",
+        "measuring",
+        "control",
+        "monitoring",
+        "bug-fix",
+        "comb",
+        "path",
+        "network",
+        "square",
+        "inspection"
+      ],
+      "name": "applicationnetworkmonitoring"
+    },
+    {
+      "title": "Application server",
+      "public": true,
+      "tags": [
+        "universal",
+        "comb",
+        "hexagon",
+        "app",
+        "database",
+        "transaction",
+        "framework",
+        "web application",
+        "web",
+        "outline",
+        "contour"
+      ],
+      "name": "applicationserver"
+    },
+    {
+      "title": "App runner",
+      "public": true,
+      "tags": ["aws", "app runner", "service", "cloud", "entity"],
+      "name": "apprunner"
+    },
+    {
+      "title": "Area chart",
+      "public": true,
+      "tags": [
+        "universal",
+        "graph",
+        "infographic",
+        "information",
+        "data",
+        "data visualization",
+        "data viz",
+        "line chart",
+        "data point",
+        "presentation"
+      ],
+      "name": "area-chart"
+    },
+    {
+      "title": "Atlanta",
+      "public": true,
+      "tags": [
+        "universal",
+        "Atlanta",
+        "chapel",
+        "city",
+        "sight",
+        "cathedral",
+        "America",
+        "Georgia",
+        "capital city",
+        "USA",
+        "United States",
+        "architecture",
+        "building"
+      ],
+      "name": "atlanta"
+    },
+    {
+      "title": "Availability",
+      "public": true,
+      "tags": [
+        "universal",
+        "useful",
+        "functional",
+        "disposable",
+        "switch",
+        "circle",
+        "contour",
+        "outline",
+        "reliability",
+        "on",
+        "present",
+        "attendant"
+      ],
+      "name": "availability"
+    },
+    {
+      "title": "Azure Functions",
+      "public": true,
+      "tags": ["technology", "azure", "functions"],
+      "name": "azure-functions"
+    },
+    {
+      "title": "Azure",
+      "public": true,
+      "tags": ["technology", "azure"],
+      "name": "azure"
+    },
+    {
+      "title": "Background",
+      "public": true,
+      "tags": [
+        "control",
+        "hierarchy",
+        "circle",
+        "layout",
+        "behind",
+        "setting",
+        "structure",
+        "arrange",
+        "organize",
+        "outline",
+        "contour"
+      ],
+      "name": "background"
+    },
+    {
+      "title": "Backup",
+      "public": true,
+      "tags": [
+        "control",
+        "arrow",
+        "save",
+        "data",
+        "download",
+        "extra",
+        "substitute",
+        "bar",
+        "rectangle",
+        "line"
+      ],
+      "name": "backup"
+    },
+    {
+      "title": "Banking",
+      "public": true,
+      "tags": [
+        "universal",
+        "bank",
+        "building",
+        "house",
+        "roof",
+        "architecture",
+        "construction",
+        "transaction",
+        "communication",
+        "account"
+      ],
+      "name": "banking"
+    },
+    {
+      "title": "Barcelona",
+      "public": true,
+      "tags": ["location", "Spain", "church", "Ssagrada Familia"],
+      "name": "barcelona"
+    },
+    {
+      "title": "Big data",
+      "public": true,
+      "tags": [
+        "universal",
+        "frame",
+        "layout",
+        "site",
+        "section",
+        "organize",
+        "data",
+        "quantity",
+        "grid"
+      ],
+      "name": "bigdata"
+    },
+    {
+      "title": "Big data server",
+      "public": true,
+      "tags": [
+        "universal",
+        "frame",
+        "layout",
+        "site",
+        "section",
+        "organize",
+        "data",
+        "quantity",
+        "grid"
+      ],
+      "name": "bigdataserver"
+    },
+    {
+      "title": "Black box",
+      "public": true,
+      "tags": [
+        "technology",
+        "box",
+        "ashlar",
+        "building block",
+        "cuboid",
+        "open",
+        "cardboard",
+        "device",
+        "recording",
+        "storage",
+        "unknown"
+      ],
+      "name": "blackbox"
+    },
+    {
+      "title": "Blog",
+      "public": true,
+      "tags": [
+        "universal",
+        "public",
+        "weblog",
+        "website",
+        "web",
+        "connection",
+        "network",
+        "internet",
+        "journalism",
+        "community",
+        "outline",
+        "contour",
+        "letter",
+        "b"
+      ],
+      "name": "blog"
+    },
+    {
+      "title": "Bold",
+      "public": true,
+      "tags": [
+        "control",
+        "letter",
+        "b",
+        "thick",
+        "strong",
+        "big",
+        "hierarchy",
+        "structure",
+        "organize"
+      ],
+      "name": "bold"
+    },
+    {
+      "title": "Boston",
+      "public": true,
+      "tags": [
+        "universal",
+        "city",
+        "Massachusetts",
+        "United States",
+        "America",
+        "USA",
+        "capital",
+        "church",
+        "chapel",
+        "cathedral",
+        "architecture",
+        "house",
+        "sight"
+      ],
+      "name": "boston"
+    },
+    {
+      "title": "Bounce rate",
+      "public": true,
+      "tags": [
+        "arrow",
+        "bounce",
+        "paths",
+        "abort",
+        "cancel",
+        "drop",
+        "exit rate",
+        "exit",
+        "visit",
+        "performance",
+        "back",
+        "forward"
+      ],
+      "name": "bouncerate"
+    },
+    {
+      "title": "Brain bulb",
+      "public": true,
+      "tags": [
+        "universal",
+        "idea",
+        "think",
+        "memory",
+        "mind",
+        "thought",
+        "reflection",
+        "cognition",
+        "logic",
+        "understanding",
+        "speculation",
+        "conclusion",
+        "concept",
+        "design",
+        "feeling",
+        "interpretation"
+      ],
+      "name": "brain-bulb"
+    },
+    {
+      "title": "Brasilia",
+      "public": true,
+      "tags": [
+        "city",
+        "capital",
+        "cathedral",
+        "sight",
+        "brazil",
+        "architecture",
+        "building",
+        null
+      ],
+      "name": "brasilia"
+    },
+    {
+      "title": "Browser",
+      "public": true,
+      "tags": [
+        "universal",
+        "finger",
+        "touch",
+        "monitor",
+        "grid",
+        "layout",
+        "computers",
+        "circle"
+      ],
+      "name": "browser"
+    },
+    {
+      "title": "Bug",
+      "public": true,
+      "tags": ["universal", "insect", "error", "fault", "beetle"],
+      "name": "bug"
+    },
+    {
+      "title": "Business transaction",
+      "public": true,
+      "tags": [
+        "data",
+        "graph",
+        "path",
+        "infographic",
+        "information",
+        "data",
+        "data visualization",
+        "data viz",
+        "line chart",
+        "data point",
+        "presentation",
+        "line"
+      ],
+      "name": "business-transaction"
+    },
+    {
+      "title": "Business impact",
+      "public": true,
+      "tags": [
+        "universal",
+        "suitcase",
+        "bag",
+        "case",
+        "carrying case",
+        "trunk",
+        "luggage",
+        "baggage",
+        "briefcase",
+        "planning",
+        "collect",
+        "collection",
+        "carry",
+        "function",
+        "activity"
+      ],
+      "name": "businessimpact"
+    },
+    {
+      "title": "Business user",
+      "public": true,
+      "tags": ["user", "man", "black tie", "suit"],
+      "name": "businessuser"
+    },
+    {
+      "title": "Calendar",
+      "public": true,
+      "tags": [
+        "date",
+        "time",
+        "scheduled",
+        "appointment",
+        "meeting",
+        "agenda",
+        "almanac",
+        "timetable",
+        "journal",
+        "month",
+        "year",
+        "day"
+      ],
+      "name": "calendar"
+    },
+    {
+      "title": "Camera",
+      "public": true,
+      "tags": [
+        "universal",
+        "cam",
+        "photo",
+        "photography",
+        "lens",
+        "lightning",
+        "light",
+        "portrait",
+        "photographer",
+        "image",
+        "picture",
+        "shot",
+        "snapshot",
+        "design"
+      ],
+      "name": "camera"
+    },
+    {
+      "title": "Certificate",
+      "public": true,
+      "tags": [
+        "universal",
+        "safety",
+        "reward",
+        "education",
+        "documentation",
+        "authentication",
+        "certification",
+        "license",
+        "ticket",
+        "permission"
+      ],
+      "name": "certificate"
+    },
+    {
+      "title": "Chart 2",
+      "public": true,
+      "tags": [
+        "line",
+        "area",
+        "increase",
+        "graph",
+        "information",
+        "data",
+        "visualization",
+        "presentation"
+      ],
+      "name": "chart-2"
+    },
+    {
+      "title": "Chart bar",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-bar"
+    },
+    {
+      "title": "Chart clustered bar",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-clustered-bar"
+    },
+    {
+      "title": "Chart diffing bar",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-diffing-bar"
+    },
+    {
+      "title": "Chart heatmap",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "map"],
+      "name": "chart-heatmap"
+    },
+    {
+      "title": "Chart legend area",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-area"
+    },
+    {
+      "title": "Chart legend bar",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-bar"
+    },
+    {
+      "title": "Chart legend business transaction",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-businesstransaction"
+    },
+    {
+      "title": "Chart legend line",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-line"
+    },
+    {
+      "title": "Chart legend meter",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-meter"
+    },
+    {
+      "title": "Chart legend percentile",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-percentile"
+    },
+    {
+      "title": "Chart legend pie",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-pie"
+    },
+    {
+      "title": "Chart legend step",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-legend-step"
+    },
+    {
+      "title": "Chart 3D pie",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-pie3d"
+    },
+    {
+      "title": "Chart single value",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "monitor"],
+      "name": "chart-single-value"
+    },
+    {
+      "title": "Chart stacked percentage bar",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-stacked-percentage-bar"
+    },
+    {
+      "title": "Chart step",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart-step"
+    },
+    {
+      "title": "Chart top list",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "ranking"],
+      "name": "chart-top-list"
+    },
+    {
+      "title": "Chart",
+      "public": true,
+      "tags": ["graph", "information", "data", "visualization", "presentation"],
+      "name": "chart"
+    },
+    {
+      "title": "Checkmark OK",
+      "public": true,
+      "tags": ["confirm", "approve", "accept"],
+      "name": "checkmark-ok"
+    },
+    {
+      "title": "Checkmark",
+      "public": true,
+      "tags": ["confirm", "approve", "accept"],
+      "name": "checkmark"
+    },
+    {
+      "title": "Chicago",
+      "public": true,
+      "tags": ["location", "city", "building", "skyscraper", "landmark"],
+      "name": "chicago"
+    },
+    {
+      "title": "City",
+      "public": true,
+      "tags": ["location", "city", "building", "skyscraper", "landmark"],
+      "name": "city"
+    },
+    {
+      "title": "Clean up",
+      "public": true,
+      "tags": ["arrow", "recycling", "loop", "circulation"],
+      "name": "cleanup"
+    },
+    {
+      "title": "Client network",
+      "public": true,
+      "tags": ["user", "path", "user"],
+      "name": "clientnetwork"
+    },
+    {
+      "title": "Clock off",
+      "public": true,
+      "tags": ["time", "date", "hour", "timer", "alarm"],
+      "name": "clock-off"
+    },
+    {
+      "title": "Clock",
+      "public": true,
+      "tags": ["time", "date", "hour", "timer", "alarm"],
+      "name": "clock"
+    },
+    {
+      "title": "Cloud download",
+      "public": true,
+      "tags": ["arrow", "down", "data"],
+      "name": "cloud-download"
+    },
+    {
+      "title": "Cloud upload",
+      "public": true,
+      "tags": ["arrow", "up", "data"],
+      "name": "cloud-upload"
+    },
+    {
+      "title": "Cloud",
+      "public": true,
+      "tags": ["resources", "on demand", "connected"],
+      "name": "cloud"
+    },
+    {
+      "title": "Cloud share",
+      "public": true,
+      "tags": ["arrows", "circle"],
+      "name": "cloudshare"
+    },
+    {
+      "title": "Cloud sync",
+      "public": true,
+      "tags": ["arrows", "synchronous"],
+      "name": "cloudsync"
+    },
+    {
+      "title": "Cluster",
+      "public": true,
+      "tags": ["client", "connected", "computers", "single system"],
+      "name": "cluster"
+    },
+    {
+      "title": "Coding",
+      "public": true,
+      "tags": ["code", "monitor", "binary", "computers", "system"],
+      "name": "coding"
+    },
+    {
+      "title": "Collector",
+      "public": true,
+      "tags": ["client", "collect", "assemble"],
+      "name": "collector"
+    },
+    {
+      "title": "Color",
+      "public": true,
+      "tags": ["paint", "brush", "color palette", "design"],
+      "name": "color"
+    },
+    {
+      "title": "Community",
+      "public": true,
+      "tags": [
+        "message",
+        "speech bubble",
+        "chat",
+        "conversation",
+        "discussion"
+      ],
+      "name": "community"
+    },
+    {
+      "title": "Container",
+      "public": true,
+      "tags": ["vmware", "cloud", "virtualization"],
+      "name": "container"
+    },
+    {
+      "title": "Contract",
+      "public": true,
+      "tags": ["collapse"],
+      "name": "contract"
+    },
+    {
+      "title": "Conversions",
+      "public": true,
+      "tags": ["business", "integration", "rum", "real user", "monitoring"],
+      "name": "conversions"
+    },
+    {
+      "title": "CPU processor",
+      "public": true,
+      "tags": ["computers", "performance", "electronics"],
+      "name": "cpu-processor"
+    },
+    {
+      "title": "Credit card",
+      "public": true,
+      "tags": [
+        "cash",
+        "money",
+        "bill",
+        "check",
+        "pay",
+        "payment",
+        "bank",
+        "card"
+      ],
+      "name": "creditcard"
+    },
+    {
+      "title": "Critical event",
+      "public": true,
+      "tags": [
+        "alert",
+        "problem",
+        "error",
+        "exclamation",
+        "failure",
+        "fault",
+        "demanding"
+      ],
+      "name": "criticalevent"
+    },
+    {
+      "title": "Custom action",
+      "public": true,
+      "tags": ["code", "programming", "coding", "operations"],
+      "name": "customaction"
+    },
+    {
+      "title": "Dallas",
+      "public": true,
+      "tags": ["geolocation", "city", "building", "landmark"],
+      "name": "dallas"
+    },
+    {
+      "title": "Database",
+      "public": true,
+      "tags": ["schemas", "tables", "queries", "data"],
+      "name": "database"
+    },
+    {
+      "title": "Database server",
+      "public": true,
+      "tags": ["schemas", "tables", "queries", "data"],
+      "name": "databaseserver"
+    },
+    {
+      "title": "Daymode",
+      "public": true,
+      "tags": ["sun", "light", "daylight", "bright"],
+      "name": "daymode"
+    },
+    {
+      "title": "Delete",
+      "public": true,
+      "tags": ["trash", "bucket", "garbage"],
+      "name": "delete"
+    },
+    {
+      "title": "Deploy",
+      "public": true,
+      "tags": ["set up", "install", "extract", "unzip", "unzipping"],
+      "name": "deploy"
+    },
+    {
+      "title": "Desktop browser",
+      "public": true,
+      "tags": ["window", "web"],
+      "name": "desktop-browser"
+    },
+    {
+      "title": "Desktop not visible",
+      "public": true,
+      "tags": ["screen", "monitor", "display"],
+      "name": "desktop-not-visible"
+    },
+    {
+      "title": "Desktop visible",
+      "public": true,
+      "tags": ["screen", "monitor", "display"],
+      "name": "desktop-visible"
+    },
+    {
+      "title": "Desktop",
+      "public": true,
+      "tags": ["screen", "monitor", "display"],
+      "name": "desktop"
+    },
+    {
+      "title": "Detroit",
+      "public": true,
+      "tags": [
+        "location",
+        "America",
+        "USA",
+        "Renaissance Center",
+        "Skyscraper",
+        "RenCen",
+        "Skyline",
+        "Sightseeing",
+        "Landmark"
+      ],
+      "name": "detroit"
+    },
+    {
+      "title": "Documentation",
+      "public": true,
+      "tags": ["book", "open", "text", "writing", "summary"],
+      "name": "documentation"
+    },
+    {
+      "title": "Dont watch",
+      "public": true,
+      "tags": ["eye", "overview", "attention", "crossed out"],
+      "name": "dont-watch"
+    },
+    {
+      "title": "Donut chart",
+      "public": true,
+      "tags": ["chart"],
+      "name": "donut-chart"
+    },
+    {
+      "title": "Download",
+      "public": true,
+      "tags": ["save", "data", "file", "source"],
+      "name": "download"
+    },
+    {
+      "title": "Drag and drop",
+      "public": true,
+      "tags": ["control", "arrow"],
+      "name": "drag-and-drop"
+    },
+    {
+      "title": "Drag handle",
+      "public": true,
+      "tags": ["dots", "content", "edit", "rearrange", "mode", "drop"],
+      "name": "drag-handle"
+    },
+    {
+      "title": "Dropdown",
+      "public": true,
+      "tags": ["control", "arrow"],
+      "name": "dropdown"
+    },
+    {
+      "title": "Dropdown closed",
+      "public": true,
+      "tags": ["control", "arrow"],
+      "name": "dropdownclosed"
+    },
+    {
+      "title": "Dropdown open",
+      "public": true,
+      "tags": ["control", "arrow"],
+      "name": "dropdownopen"
+    },
+    {
+      "title": "Duplicate",
+      "public": true,
+      "tags": ["copy", "paste", "file", "content"],
+      "name": "duplicate"
+    },
+    {
+      "title": "Edit1",
+      "public": true,
+      "tags": ["control", "pencil", "content", "change", "edit", "document"],
+      "name": "edit1"
+    },
+    {
+      "title": "Edit2",
+      "public": true,
+      "tags": [
+        "control",
+        "pencil",
+        "content",
+        "change",
+        "edit",
+        "line",
+        "document"
+      ],
+      "name": "edit2"
+    },
+    {
+      "title": "Education",
+      "public": true,
+      "tags": [
+        "learning",
+        "teaching",
+        "training",
+        "study",
+        "improvement",
+        "information"
+      ],
+      "name": "education"
+    },
+    {
+      "title": "Elastic load",
+      "public": true,
+      "tags": ["balancer"],
+      "name": "elastic-load"
+    },
+    {
+      "title": "Embedded PC",
+      "public": true,
+      "tags": ["device", "IoT", "Internet", "things"],
+      "name": "embedded-pc"
+    },
+    {
+      "title": "Entry",
+      "public": true,
+      "tags": ["user", "exit", "door", "leave", "enter", "emergency"],
+      "name": "entry"
+    },
+    {
+      "title": "Entrypoint",
+      "public": true,
+      "tags": ["entry", "enter", "process", "security", "vulnerability"],
+      "name": "entrypoint"
+    },
+    {
+      "title": "Environment",
+      "public": true,
+      "tags": [
+        "workstation",
+        "development",
+        "deployment",
+        "production",
+        "developer"
+      ],
+      "name": "environment"
+    },
+    {
+      "title": "Equals",
+      "public": true,
+      "tags": ["control", "equivalent", "counterpart", "calculations"],
+      "name": "equals"
+    },
+    {
+      "title": "Event",
+      "public": true,
+      "tags": ["interruption", "handler", "notification", "event-driven"],
+      "name": "event"
+    },
+    {
+      "title": "Exit",
+      "public": true,
+      "tags": ["user", "entry", "door", "leave", "enter", "emergency"],
+      "name": "exit"
+    },
+    {
+      "title": "Expand",
+      "public": true,
+      "tags": ["control", "enlarge", "increase", "widen", "image"],
+      "name": "expand"
+    },
+    {
+      "title": "Expert services",
+      "public": true,
+      "tags": [
+        "user",
+        "experts",
+        "service",
+        "experience",
+        "customers",
+        "group",
+        "people",
+        "communication",
+        "research",
+        "marketing",
+        "sales"
+      ],
+      "name": "expertservices"
+    },
+    {
+      "title": "External link",
+      "public": true,
+      "tags": ["control", "link", "connection", "outside", "web"],
+      "name": "externallink"
+    },
+    {
+      "title": "Failed user action",
+      "public": true,
+      "tags": [
+        "user",
+        "interaction",
+        "failed",
+        "error",
+        "failure",
+        "alert",
+        "customers",
+        "action"
+      ],
+      "name": "faileduseraction"
+    },
+    {
+      "title": "Fast",
+      "public": true,
+      "tags": ["shoe", "run", "quick", "performance", "sports", "race"],
+      "name": "fast"
+    },
+    {
+      "title": "FaultDomainAnalysis",
+      "public": true,
+      "tags": ["fault", "domain", "analysis", "analytics", "magnifier"],
+      "name": "faultdomainanalysis"
+    },
+    {
+      "title": "Favorite",
+      "public": true,
+      "tags": ["control", "fav", "best", "preference", "star"],
+      "name": "favorite"
+    },
+    {
+      "title": "File library",
+      "public": true,
+      "tags": ["document", "content", "lib", "folder", "center", "information"],
+      "name": "file-library"
+    },
+    {
+      "title": "Filter",
+      "public": true,
+      "tags": [
+        "control",
+        "reduction",
+        "reduce",
+        "content",
+        "refine",
+        "clarify"
+      ],
+      "name": "filter"
+    },
+    {
+      "title": "Finish flag",
+      "public": true,
+      "tags": ["goal", "end", "race", "flag", "flagged"],
+      "name": "finishflag"
+    },
+    {
+      "title": "First aid",
+      "public": true,
+      "tags": ["emergency", "assistance", "health", "issues", "help"],
+      "name": "firstaid"
+    },
+    {
+      "title": "Fit to screen",
+      "public": true,
+      "tags": [
+        "control",
+        "fit",
+        "monitor",
+        "size",
+        "screen",
+        "widen",
+        "width",
+        "height",
+        "full-width",
+        "full"
+      ],
+      "name": "fittoscreen"
+    },
+    {
+      "title": "Fixpack",
+      "public": true,
+      "tags": ["fixes", "code", "package"],
+      "name": "fixpack"
+    },
+    {
+      "title": "Flash",
+      "public": true,
+      "tags": ["lightning", "light", "fast"],
+      "name": "flash"
+    },
+    {
+      "title": "Folder",
+      "public": true,
+      "tags": ["document", "content", "folder", "information"],
+      "name": "folder"
+    },
+    {
+      "title": "Font size",
+      "public": true,
+      "tags": [
+        "control",
+        "accessibility",
+        "bigger",
+        "smaller",
+        "typography",
+        "readability",
+        "readable"
+      ],
+      "name": "font-size"
+    },
+    {
+      "title": "Foreground",
+      "public": true,
+      "tags": ["control", "move", "in front", "to back"],
+      "name": "foreground"
+    },
+    {
+      "title": "Forum",
+      "public": true,
+      "tags": [
+        "posts",
+        "community",
+        "users",
+        "discussion",
+        "board",
+        "message",
+        "online"
+      ],
+      "name": "forum"
+    },
+    {
+      "title": "Frankfurt",
+      "public": true,
+      "tags": ["location", "main tower", "building", "Germany"],
+      "name": "frankfurt"
+    },
+    {
+      "title": "fsharp",
+      "public": true,
+      "tags": ["technology", "f#", "f sharp", "language"],
+      "name": "fsharp"
+    },
+    {
+      "title": "Gdansk",
+      "public": true,
+      "tags": ["location", "Poland", "Artus Court", "Sightseeing", "Landmark"],
+      "name": "gdansk"
+    },
+    {
+      "title": "GettingStarted",
+      "public": true,
+      "tags": ["play", "start"],
+      "name": "gettingstarted"
+    },
+    {
+      "title": "Graz",
+      "public": true,
+      "tags": [
+        "location",
+        "city",
+        "landmark",
+        "clock",
+        "tower",
+        "styria",
+        "austria"
+      ],
+      "name": "graz"
+    },
+    {
+      "title": "Hagenberg",
+      "public": true,
+      "tags": ["location", "Austria", "University", "Campus"],
+      "name": "hagenberg"
+    },
+    {
+      "title": "Handle",
+      "public": true,
+      "tags": ["handle", "selection-area", "drag", "resize"],
+      "name": "handle"
+    },
+    {
+      "title": "HDD",
+      "public": true,
+      "tags": [
+        "HDD",
+        "disk",
+        "drive",
+        "fixed",
+        "data",
+        "storage",
+        "digital",
+        "information"
+      ],
+      "name": "hdd-discdrive"
+    },
+    {
+      "title": "Headphones",
+      "public": true,
+      "tags": ["listen", "phones", "speaker", "hear"],
+      "name": "headphones"
+    },
+    {
+      "title": "Health status",
+      "public": true,
+      "tags": [
+        "status",
+        "health",
+        "viability",
+        "EKG",
+        "living",
+        "monitoring",
+        "issues"
+      ],
+      "name": "healthstatus"
+    },
+    {
+      "title": "Help bubble",
+      "public": true,
+      "tags": [
+        "control",
+        "chat",
+        "customers",
+        "service",
+        "talk",
+        "issues",
+        "user",
+        "message",
+        "messaging"
+      ],
+      "name": "help-bubble"
+    },
+    {
+      "title": "Home",
+      "public": true,
+      "tags": ["control", "homepage", "index", "start", "house"],
+      "name": "home"
+    },
+    {
+      "title": "Hops",
+      "public": true,
+      "tags": [
+        "hop",
+        "jump",
+        "step",
+        "security",
+        "process",
+        "problem",
+        "vulnerability"
+      ],
+      "name": "hops"
+    },
+    {
+      "title": "Host",
+      "public": true,
+      "tags": [
+        "network",
+        "computers",
+        "address",
+        "information",
+        "resources",
+        "application",
+        "communication",
+        "client"
+      ],
+      "name": "host"
+    },
+    {
+      "title": "Hourglass",
+      "public": true,
+      "tags": ["time", "running", "clock", "short", "full"],
+      "name": "hourglass"
+    },
+    {
+      "title": "Https",
+      "public": true,
+      "tags": [
+        "web",
+        "internet",
+        "browser",
+        "protocol",
+        "data",
+        "security",
+        "secure",
+        "encrypted"
+      ],
+      "name": "https"
+    },
+    {
+      "title": "Hyperlyzer",
+      "public": true,
+      "tags": [
+        "chart",
+        "graph",
+        "infographic",
+        "information",
+        "data",
+        "data visualization",
+        "data viz",
+        "line chart",
+        "data point",
+        "presentation"
+      ],
+      "name": "hyperlyzer"
+    },
+    {
+      "title": "Idle",
+      "public": true,
+      "tags": ["waiting", "unproductive", "loading"],
+      "name": "idle"
+    },
+    {
+      "title": "Iframe",
+      "public": true,
+      "tags": ["html", "source", "web", "inline"],
+      "name": "iframe"
+    },
+    {
+      "title": "Image error during session",
+      "public": true,
+      "tags": [
+        "picture",
+        "placeholder",
+        "error",
+        "session",
+        "during",
+        "photo",
+        "jpg",
+        "png"
+      ],
+      "name": "image-errorduringsession"
+    },
+    {
+      "title": "Image error unknown",
+      "public": true,
+      "tags": [
+        "picture",
+        "placeholder",
+        "error",
+        "expired",
+        "change",
+        "photo",
+        "jpg",
+        "png"
+      ],
+      "name": "image-errorunknown"
+    },
+    {
+      "title": "Image file",
+      "public": true,
+      "tags": ["picture", "placeholder", "painting", "photo", "jpg", "png"],
+      "name": "image-file"
+    },
+    {
+      "title": "Image masked",
+      "public": true,
+      "tags": [
+        "picture",
+        "placeholder",
+        "masked",
+        "mask",
+        "photo",
+        "jpg",
+        "png"
+      ],
+      "name": "image-masked"
+    },
+    {
+      "title": "Image not available",
+      "public": true,
+      "tags": [
+        "picture",
+        "placeholder",
+        "not",
+        "available",
+        "error",
+        "photo",
+        "jpg",
+        "png"
+      ],
+      "name": "image-notavailable"
+    },
+    {
+      "title": "Incident",
+      "public": true,
+      "tags": [
+        "caution",
+        "warning",
+        "notification",
+        "triangle",
+        "exclamation mark",
+        "event"
+      ],
+      "name": "incident"
+    },
+    {
+      "title": "Infinity unlimited",
+      "public": true,
+      "tags": [
+        "infinite",
+        "absolute",
+        "everlasting",
+        "8",
+        "perpetual",
+        "unending",
+        "noend"
+      ],
+      "name": "infinity-unlimited"
+    },
+    {
+      "title": "Information",
+      "public": true,
+      "tags": [
+        "i",
+        "circle",
+        "info",
+        "note",
+        "more",
+        "notice",
+        "advice",
+        "instruction"
+      ],
+      "name": "information"
+    },
+    {
+      "title": "Infrastructure",
+      "public": true,
+      "tags": ["host", "monitoring", "solution", "perform"],
+      "name": "infrastructure"
+    },
+    {
+      "title": "Infrastructure health",
+      "public": true,
+      "tags": ["host", "health", "speed", "performance"],
+      "name": "infrastructurehealth"
+    },
+    {
+      "title": "IO Input",
+      "public": true,
+      "tags": [
+        "arrow",
+        "network",
+        "connection",
+        "bandwidth",
+        "disk",
+        "write",
+        "read",
+        "in",
+        "data"
+      ],
+      "name": "io-input"
+    },
+    {
+      "title": "IO Output",
+      "public": true,
+      "tags": [
+        "arrow",
+        "network",
+        "connection",
+        "bandwidth",
+        "disk",
+        "write",
+        "read",
+        "out"
+      ],
+      "name": "io-output"
+    },
+    {
+      "title": "Internet of things",
+      "public": true,
+      "tags": ["universal", "IoT", "generic"],
+      "name": "iot"
+    },
+    {
+      "title": "Italic",
+      "public": true,
+      "tags": ["font", "i", "fontface", "type", "cursive"],
+      "name": "italic"
+    },
+    {
+      "title": "Jewel",
+      "public": true,
+      "tags": ["security", "important", "data", "sink", "precious"],
+      "name": "jewel"
+    },
+    {
+      "title": "Keyboard",
+      "public": true,
+      "tags": ["keyboard", "masking", "input", "panel", "imagemasking"],
+      "name": "keyboard"
+    },
+    {
+      "title": "Keystroke",
+      "public": true,
+      "tags": [
+        "font",
+        "type",
+        "webcheck",
+        "user",
+        "action",
+        "step",
+        "recording"
+      ],
+      "name": "keystroke"
+    },
+    {
+      "title": "Klagenfurt",
+      "public": true,
+      "tags": ["location", "Austria", "Carinthia", "dragon", "lindwurm"],
+      "name": "klagenfurt"
+    },
+    {
+      "title": "Laboratory",
+      "public": true,
+      "tags": ["tube", "test", "experiment"],
+      "name": "laboratory"
+    },
+    {
+      "title": "Learn more",
+      "public": true,
+      "tags": ["arrow", "double", "down"],
+      "name": "learn-more"
+    },
+    {
+      "title": "Left",
+      "public": true,
+      "tags": ["control", "arrow", "direction", "previous", "back"],
+      "name": "left"
+    },
+    {
+      "title": "Left end",
+      "public": true,
+      "tags": [
+        "control",
+        "arrow",
+        "direction",
+        "previous",
+        "back",
+        "far",
+        "beginning",
+        "start"
+      ],
+      "name": "leftend"
+    },
+    {
+      "title": "Light bulb",
+      "public": true,
+      "tags": [
+        "idea",
+        "brain",
+        "knowledge",
+        "support",
+        "awareness",
+        "expertise",
+        "education",
+        "bright",
+        "know-how",
+        "learning",
+        "power",
+        "enlightenment"
+      ],
+      "name": "light-bulb"
+    },
+    {
+      "title": "Like",
+      "public": true,
+      "tags": ["heart", "favor", "personal", "popular"],
+      "name": "like"
+    },
+    {
+      "title": "Link 2",
+      "public": true,
+      "tags": ["control", "chain", "together", "connected"],
+      "name": "link-2"
+    },
+    {
+      "title": "Linz",
+      "public": true,
+      "tags": [
+        "location",
+        "austria",
+        "Poestlingberg",
+        "Pöstlingberg",
+        "city",
+        "sightseeing",
+        "landmark"
+      ],
+      "name": "linz"
+    },
+    {
+      "title": "List view",
+      "public": true,
+      "tags": [
+        "ordered",
+        "unordered",
+        "listing",
+        "bullets",
+        "control",
+        "catalog"
+      ],
+      "name": "list-view"
+    },
+    {
+      "title": "Live europe",
+      "public": true,
+      "tags": ["world", "globe", "earth", "europe", "africa"],
+      "name": "live-europe"
+    },
+    {
+      "title": "Live",
+      "public": true,
+      "tags": ["world", "globe", "earth"],
+      "name": "live"
+    },
+    {
+      "title": "Livetag",
+      "public": true,
+      "tags": ["live", "session", "replay"],
+      "name": "livetag"
+    },
+    {
+      "title": "Load",
+      "public": true,
+      "tags": ["balance", "capacity", "chart"],
+      "name": "load"
+    },
+    {
+      "title": "Load action",
+      "public": true,
+      "tags": ["RUM", "user", "action", "loading", "page", "URL", "webcheck"],
+      "name": "loadaction"
+    },
+    {
+      "title": "Load balancer",
+      "public": true,
+      "tags": [
+        "distribution",
+        "workload",
+        "resources",
+        "cluster",
+        "network",
+        "disk",
+        "throughput"
+      ],
+      "name": "loadbalancer"
+    },
+    {
+      "title": "Lock",
+      "public": true,
+      "tags": ["closed", "locked", "shut"],
+      "name": "lock"
+    },
+    {
+      "title": "Log file",
+      "public": true,
+      "tags": ["file", "event", "message", "transaction", "terminal", "record"],
+      "name": "logfile"
+    },
+    {
+      "title": "Logout",
+      "public": true,
+      "tags": ["control", "arrow", "left", "signout", "leave", "close"],
+      "name": "logout"
+    },
+    {
+      "title": "London",
+      "public": true,
+      "tags": ["location", "europe", "england", "webcheck"],
+      "name": "london"
+    },
+    {
+      "title": "Los Angeles",
+      "public": true,
+      "tags": [
+        "location",
+        "USA",
+        "west",
+        "california",
+        "united",
+        "states",
+        "webcheck"
+      ],
+      "name": "los-angeles"
+    },
+    {
+      "title": "Lost and found",
+      "public": true,
+      "tags": [
+        "universal",
+        "lost",
+        "found",
+        "arrow",
+        "pure path",
+        "twist",
+        "detour",
+        "route",
+        "loop"
+      ],
+      "name": "lost-and-found"
+    },
+    {
+      "title": "Mail closed",
+      "public": true,
+      "tags": [
+        "envelope",
+        "closed",
+        "received",
+        "unread",
+        "message",
+        "notification"
+      ],
+      "name": "mailclosed"
+    },
+    {
+      "title": "Mail open",
+      "public": true,
+      "tags": [
+        "envelope",
+        "opened",
+        "received",
+        "read",
+        "message",
+        "notification"
+      ],
+      "name": "mailopen"
+    },
+    {
+      "title": "Mainframe",
+      "public": true,
+      "tags": ["bulk", "data", "processing"],
+      "name": "mainframe"
+    },
+    {
+      "title": "Mainframe server",
+      "public": true,
+      "tags": ["bulk", "data", "processing", "server"],
+      "name": "mainframeserver"
+    },
+    {
+      "title": "Maintenance",
+      "public": true,
+      "tags": [
+        "control",
+        "repair",
+        "planned",
+        "scheduled",
+        "upkeep",
+        "continuance",
+        "service",
+        "maintaining",
+        "preventive",
+        "care"
+      ],
+      "name": "maintenance"
+    },
+    {
+      "title": "Marketing",
+      "public": true,
+      "tags": [
+        "communicate",
+        "communication",
+        "customers",
+        "megaphone",
+        "business",
+        "management"
+      ],
+      "name": "marketing"
+    },
+    {
+      "title": "Mask",
+      "public": true,
+      "tags": ["mask", "masking", "image", "imagemasking"],
+      "name": "mask"
+    },
+    {
+      "title": "Measure",
+      "public": true,
+      "tags": [
+        "ruler",
+        "pencil",
+        "measurement",
+        "specs",
+        "distance",
+        "pen",
+        "scale"
+      ],
+      "name": "measure"
+    },
+    {
+      "title": "Memory RAM",
+      "public": true,
+      "tags": ["random", "access", "data", "storage", "speed"],
+      "name": "memory-ram"
+    },
+    {
+      "title": "Menu close",
+      "public": true,
+      "tags": ["arrow", "right", "global", "navigation", "hide", "control"],
+      "name": "menu-close"
+    },
+    {
+      "title": "Menu hamburger",
+      "public": true,
+      "tags": ["open", "global", "navigation", "menubar"],
+      "name": "menu-hamburger"
+    },
+    {
+      "title": "Menu tree",
+      "public": true,
+      "tags": ["structure", "view", "control", "switch"],
+      "name": "menu-tree"
+    },
+    {
+      "title": "Menu",
+      "public": true,
+      "tags": ["list", "bullets", "entries", "entry"],
+      "name": "menu"
+    },
+    {
+      "title": "Messaging queue",
+      "public": true,
+      "tags": [
+        "mail",
+        "message",
+        "mailbox",
+        "inter-process",
+        "communication",
+        "thread"
+      ],
+      "name": "messaging-queue"
+    },
+    {
+      "icons": [
+        "abort",
+        "actionspersession",
+        "addcolumnleft",
+        "addcolumnright",
+        "addrowonbottom",
+        "addrowontop",
+        "airplane",
+        "alarm-off",
+        "alarm-on",
+        "alert-notification",
+        "analyze",
+        "and-not",
+        "and",
+        "appliance",
+        "application",
+        "applicationhealth",
+        "applicationnetworkmonitoring",
+        "applicationserver",
+        "apprunner",
+        "area-chart",
+        "atlanta",
+        "availability",
+        "azure-functions",
+        "azure",
+        "background",
+        "backup",
+        "banking",
+        "barcelona",
+        "bigdata",
+        "bigdataserver",
+        "blackbox",
+        "blog",
+        "bold",
+        "boston",
+        "bouncerate",
+        "brain-bulb",
+        "brasilia",
+        "browser",
+        "bug",
+        "business-transaction",
+        "businessimpact",
+        "businessuser",
+        "calendar",
+        "camera",
+        "certificate",
+        "chart-2",
+        "chart-bar",
+        "chart-clustered-bar",
+        "chart-diffing-bar",
+        "chart-heatmap",
+        "chart-legend-area",
+        "chart-legend-bar",
+        "chart-legend-businesstransaction",
+        "chart-legend-line",
+        "chart-legend-meter",
+        "chart-legend-percentile",
+        "chart-legend-pie",
+        "chart-legend-step",
+        "chart-pie3d",
+        "chart-single-value",
+        "chart-stacked-percentage-bar",
+        "chart-step",
+        "chart-top-list",
+        "chart",
+        "checkmark-ok",
+        "checkmark",
+        "chicago",
+        "city",
+        "cleanup",
+        "clientnetwork",
+        "clock-off",
+        "clock",
+        "cloud-download",
+        "cloud-upload",
+        "cloud",
+        "cloudshare",
+        "cloudsync",
+        "cluster",
+        "coding",
+        "collector",
+        "color",
+        "community",
+        "container",
+        "contract",
+        "conversions",
+        "cpu-processor",
+        "creditcard",
+        "criticalevent",
+        "customaction",
+        "dallas",
+        "database",
+        "databaseserver",
+        "daymode",
+        "delete",
+        "deploy",
+        "desktop-browser",
+        "desktop-not-visible",
+        "desktop-visible",
+        "desktop",
+        "detroit",
+        "documentation",
+        "dont-watch",
+        "donut-chart",
+        "download",
+        "drag-and-drop",
+        "drag-handle",
+        "dropdown",
+        "dropdownclosed",
+        "dropdownopen",
+        "duplicate",
+        "edit1",
+        "edit2",
+        "education",
+        "elastic-load",
+        "embedded-pc",
+        "entry",
+        "entrypoint",
+        "environment",
+        "equals",
+        "event",
+        "exit",
+        "expand",
+        "expertservices",
+        "externallink",
+        "faileduseraction",
+        "fast",
+        "faultdomainanalysis",
+        "favorite",
+        "file-library",
+        "filter",
+        "finishflag",
+        "firstaid",
+        "fittoscreen",
+        "fixpack",
+        "flash",
+        "folder",
+        "font-size",
+        "foreground",
+        "forum",
+        "frankfurt",
+        "fsharp",
+        "gdansk",
+        "gettingstarted",
+        "graz",
+        "hagenberg",
+        "handle",
+        "hdd-discdrive",
+        "headphones",
+        "healthstatus",
+        "help-bubble",
+        "home",
+        "hops",
+        "host",
+        "hourglass",
+        "https",
+        "hyperlyzer",
+        "idle",
+        "iframe",
+        "image-errorduringsession",
+        "image-errorunknown",
+        "image-file",
+        "image-masked",
+        "image-notavailable",
+        "incident",
+        "infinity-unlimited",
+        "information",
+        "infrastructure",
+        "infrastructurehealth",
+        "io-input",
+        "io-output",
+        "iot",
+        "italic",
+        "jewel",
+        "keyboard",
+        "keystroke",
+        "klagenfurt",
+        "laboratory",
+        "learn-more",
+        "left",
+        "leftend",
+        "light-bulb",
+        "like",
+        "link-2",
+        "linz",
+        "list-view",
+        "live-europe",
+        "live",
+        "livetag",
+        "load",
+        "loadaction",
+        "loadbalancer",
+        "lock",
+        "logfile",
+        "logout",
+        "london",
+        "los-angeles",
+        "lost-and-found",
+        "mailclosed",
+        "mailopen",
+        "mainframe",
+        "mainframeserver",
+        "maintenance",
+        "marketing",
+        "mask",
+        "measure",
+        "memory-ram",
+        "menu-close",
+        "menu-hamburger",
+        "menu-tree",
+        "menu",
+        "messaging-queue",
+        "meter-chart",
+        "minus",
+        "mobile-action",
+        "mobile-app",
+        "mobile-browser",
+        "mobile",
+        "more",
+        "multiple",
+        "network",
+        "new-york",
+        "news",
+        "nightmode",
+        "noc",
+        "notebook",
+        "options-menu",
+        "orcestrationplatform",
+        "ordered-list",
+        "overview",
+        "page-paper",
+        "paperclip",
+        "paris",
+        "partner",
+        "pause",
+        "percentile-chart",
+        "perfromance-health",
+        "pie-chart",
+        "pin",
+        "pinpoint-location",
+        "play",
+        "plugin-connection",
+        "plugin",
+        "plus-add",
+        "presales",
+        "process",
+        "processes",
+        "proxy",
+        "queue",
+        "radar-detection",
+        "realuser-monitorwebsiteusers",
+        "realuser",
+        "rebuildstack",
+        "record",
+        "recurringissue",
+        "refresh",
+        "registerdeals",
+        "removecolumn",
+        "removerow",
+        "repair",
+        "replay",
+        "reports",
+        "request",
+        "resetpassword",
+        "resize",
+        "resource-contention",
+        "resourcerequest",
+        "restore",
+        "resume",
+        "revert",
+        "right",
+        "rightend",
+        "robots",
+        "routes",
+        "rss",
+        "sales",
+        "san-jose",
+        "saopaulo",
+        "scale-compare",
+        "scatter-plot",
+        "scissors",
+        "script",
+        "sdk",
+        "search-magnifyingglass",
+        "seattle",
+        "security-critical",
+        "security-high",
+        "security-low",
+        "security-medium",
+        "send-receive-traffic",
+        "sensor",
+        "server",
+        "serverbracket",
+        "services",
+        "session-recording",
+        "share",
+        "shoppingcart",
+        "signal",
+        "singapore",
+        "slow",
+        "smartscape",
+        "smiley-enraged-1",
+        "smiley-enraged-2",
+        "smiley-happy-1",
+        "smiley-happy-2",
+        "smiley-neutral-1",
+        "smiley-neutral-2",
+        "smiley-ok-1",
+        "smiley-ok-2",
+        "smiley-unhappy-1",
+        "smiley-unhappy-2",
+        "sorter-double",
+        "sorter-down",
+        "sorter-up",
+        "sorter2-down",
+        "sorter2-up",
+        "stacked-area-chart",
+        "stacked-bar-chart",
+        "star-empty",
+        "stop",
+        "storage-cloud",
+        "storage-local",
+        "storage",
+        "summary",
+        "support-contact",
+        "support-help",
+        "switch",
+        "sydney",
+        "table",
+        "tablet",
+        "tabletui",
+        "tag",
+        "team",
+        "thermometer",
+        "threadanalysis",
+        "thumb-down-filled",
+        "thumb-down",
+        "thumb-up-filled",
+        "thumb-up",
+        "tile-view",
+        "timemeasurement",
+        "traffic-light",
+        "tree",
+        "trend-chart-down",
+        "trend-chart-up",
+        "trend-down",
+        "trend-up",
+        "trialdaycounter",
+        "trophy-outline",
+        "trophy",
+        "umbrella",
+        "underconstruction",
+        "unknown-server",
+        "unknown-user",
+        "unknown",
+        "unlock",
+        "unrecognized-signet",
+        "usage1",
+        "usage2",
+        "user-uem",
+        "usergroup",
+        "vault-safe",
+        "vcenter",
+        "versatile",
+        "video-no",
+        "video",
+        "vienna",
+        "visual-resolution-path",
+        "voip",
+        "vulnerable-function",
+        "web-sphere",
+        "web",
+        "webhook",
+        "webpages",
+        "webserver",
+        "wifi-bandwidth",
+        "xhr-load-action",
+        "xhrprocess",
+        "zoomin-found",
+        "zoomout-notfound"
+      ],
+      "name": "metadata"
+    },
+    {
+      "title": "Meter chart",
+      "public": true,
+      "tags": [
+        "bars",
+        "score",
+        "graph",
+        "data",
+        "visualization",
+        "universal",
+        "infographic",
+        "information",
+        "presentation"
+      ],
+      "name": "meter-chart"
+    },
+    {
+      "title": "Minus",
+      "public": true,
+      "tags": ["dash", "control", "subtraction", "math", "reduce", "smaller"],
+      "name": "minus"
+    },
+    {
+      "title": "Mobile Action",
+      "public": true,
+      "tags": ["phone", "tablet", "touch", "device", "portrait", "user action"],
+      "name": "mobile-action"
+    },
+    {
+      "title": "Mobile app",
+      "public": true,
+      "tags": ["phone", "tablet", "touch", "device", "portrait"],
+      "name": "mobile-app"
+    },
+    {
+      "title": "Mobile browser",
+      "public": true,
+      "tags": ["phone", "tablet", "touch", "device", "portrait"],
+      "name": "mobile-browser"
+    },
+    {
+      "title": "Mobile",
+      "public": true,
+      "tags": ["phone", "tablet", "touch", "device", "portrait"],
+      "name": "mobile"
+    },
+    {
+      "title": "More",
+      "public": true,
+      "tags": ["context", "menu", "actions", "control"],
+      "name": "more"
+    },
+    {
+      "title": "Multiple",
+      "public": true,
+      "tags": [
+        "server",
+        "application",
+        "infrastructure",
+        "collection",
+        "hourglass"
+      ],
+      "name": "multiple"
+    },
+    {
+      "title": "Network",
+      "public": true,
+      "tags": [
+        "clients",
+        "connection",
+        "ethernet",
+        "lan",
+        "local area network"
+      ],
+      "name": "network"
+    },
+    {
+      "title": "New York",
+      "public": true,
+      "tags": ["location", "geo", "city", "big apple", "empire state building"],
+      "name": "new-york"
+    },
+    {
+      "title": "News",
+      "public": true,
+      "tags": ["newspaper", "article"],
+      "name": "news"
+    },
+    {
+      "title": "Nightmode",
+      "public": true,
+      "tags": ["control", "moon", "dark", "switch", "night"],
+      "name": "nightmode"
+    },
+    {
+      "title": "NOC",
+      "public": true,
+      "tags": ["network operations center"],
+      "name": "noc"
+    },
+    {
+      "title": "Notebook",
+      "public": true,
+      "tags": ["device", "desktop", "macbook", "laptop", "portable"],
+      "name": "notebook"
+    },
+    {
+      "title": "Options menu",
+      "public": true,
+      "tags": [
+        "control",
+        "settings",
+        "configuration",
+        "preference",
+        "setup",
+        "sliders",
+        "on/off"
+      ],
+      "name": "options-menu"
+    },
+    {
+      "title": "Orchestration platform",
+      "public": true,
+      "tags": ["devops", "noops", "equalizer", "status", null],
+      "name": "orcestrationplatform"
+    },
+    {
+      "title": "Ordered list",
+      "public": true,
+      "tags": ["ol", "enumeration", "itemization", "items"],
+      "name": "ordered-list"
+    },
+    {
+      "title": "Overview",
+      "public": true,
+      "tags": ["control", "eye", "look", "watch", "open", "view"],
+      "name": "overview"
+    },
+    {
+      "name": "package",
+      "version": "7.17.0",
+      "main": "index.js",
+      "typings": "index.d.ts",
+      "license": "Apache-2.0",
+      "description": "This is the public icon pack for the barista design system."
+    },
+    {
+      "title": "Page paper",
+      "public": true,
+      "tags": ["control", "sheet", "empty", "new", "document"],
+      "name": "page-paper"
+    },
+    {
+      "title": "Paperclip",
+      "public": true,
+      "tags": ["office", "tag"],
+      "name": "paperclip"
+    },
+    {
+      "title": "Paris",
+      "public": true,
+      "tags": ["location", "geo", "city", "eiffel tower", "france", "europe"],
+      "name": "paris"
+    },
+    {
+      "title": "Partner",
+      "public": true,
+      "tags": ["handshake", "handclap", "shaking hands", "agreement"],
+      "name": "partner"
+    },
+    {
+      "title": "Pause",
+      "public": true,
+      "tags": [
+        "control",
+        "play",
+        "stop",
+        "forward",
+        "rewind",
+        "player",
+        "hold"
+      ],
+      "name": "pause"
+    },
+    {
+      "title": "Percentile chart",
+      "public": true,
+      "tags": ["control", "99th", "95th", "legend"],
+      "name": "percentile-chart"
+    },
+    {
+      "title": "Performance health",
+      "public": true,
+      "tags": ["control", "chart", "gauge", "speed", "accelerate", "rpm"],
+      "name": "perfromance-health"
+    },
+    {
+      "title": "Pie chart",
+      "public": true,
+      "tags": ["control", "percentages", "legend"],
+      "name": "pie-chart"
+    },
+    {
+      "title": "Pin",
+      "public": true,
+      "tags": ["keep", "fix", "office"],
+      "name": "pin"
+    },
+    {
+      "title": "Pinpoint location",
+      "public": true,
+      "tags": ["location", "geo", "map", "coordinates"],
+      "name": "pinpoint-location"
+    },
+    {
+      "title": "Play",
+      "public": true,
+      "tags": [
+        "control",
+        "pause",
+        "stop",
+        "forward",
+        "rewind",
+        "player",
+        "hold"
+      ],
+      "name": "play"
+    },
+    {
+      "title": "Plug-in connection",
+      "public": true,
+      "tags": ["plug", "disconnected", "connector", "jack", "cinch"],
+      "name": "plugin-connection"
+    },
+    {
+      "title": "Plugin",
+      "public": true,
+      "tags": ["puzzle", "piece"],
+      "name": "plugin"
+    },
+    {
+      "title": "Plus add",
+      "public": true,
+      "tags": ["control", "minus", "addition", "math", "increase", "bigger"],
+      "name": "plus-add"
+    },
+    {
+      "title": "Calculator",
+      "public": true,
+      "tags": ["presales", "finance", "scientific", "math"],
+      "name": "presales"
+    },
+    {
+      "title": "Process",
+      "public": true,
+      "tags": [
+        "processing",
+        "action",
+        "development",
+        "processes",
+        "mechanism",
+        "flow"
+      ],
+      "name": "process"
+    },
+    {
+      "title": "Processes",
+      "public": true,
+      "tags": [
+        "processing",
+        "action",
+        "development",
+        "processes",
+        "mechanism",
+        "flow"
+      ],
+      "name": "processes"
+    },
+    {
+      "title": "Proxy",
+      "public": true,
+      "tags": ["univeral", "connection", "server", "network"],
+      "name": "proxy"
+    },
+    {
+      "title": "Queue",
+      "public": true,
+      "tags": ["queuing", "chain", "order", "line", "pipe", "tube"],
+      "name": "queue"
+    },
+    {
+      "title": "Radar detection",
+      "public": true,
+      "tags": [
+        "inbound",
+        "incoming",
+        "discovery",
+        "find",
+        "bogie",
+        "bogey",
+        "blip",
+        "contact"
+      ],
+      "name": "radar-detection"
+    },
+    {
+      "title": "Web user",
+      "public": true,
+      "tags": [
+        "rum",
+        "real user monitoring",
+        "website",
+        "desktop",
+        "monitor",
+        "person",
+        "people"
+      ],
+      "name": "realuser-monitorwebsiteusers"
+    },
+    {
+      "title": "Real user",
+      "public": true,
+      "tags": [
+        "inbound",
+        "incoming",
+        "discovery",
+        "find",
+        "bogie",
+        "bogey",
+        "blip",
+        "contact"
+      ],
+      "name": "realuser"
+    },
+    {
+      "title": "Rebuild stack",
+      "public": true,
+      "tags": ["person", "people"],
+      "name": "rebuildstack"
+    },
+    {
+      "title": "Record",
+      "public": true,
+      "tags": ["tape", "capture"],
+      "name": "record"
+    },
+    {
+      "title": "Recurring issue",
+      "public": true,
+      "tags": ["infinite", "loop", "arrow"],
+      "name": "recurringissue"
+    },
+    {
+      "title": "Refresh",
+      "public": true,
+      "tags": ["control", "reload", "forwards"],
+      "name": "refresh"
+    },
+    {
+      "title": "Register deals",
+      "public": true,
+      "tags": ["folder", "binders", "books", "shelf"],
+      "name": "registerdeals"
+    },
+    {
+      "title": "Remove column",
+      "public": true,
+      "tags": ["control", "remove", "table"],
+      "name": "removecolumn"
+    },
+    {
+      "title": "Remove row",
+      "public": true,
+      "tags": ["control", "remove", "table"],
+      "name": "removerow"
+    },
+    {
+      "title": "Repair",
+      "public": true,
+      "tags": ["tools", "wrench", "fix", "screwdriver"],
+      "name": "repair"
+    },
+    {
+      "title": "Replay",
+      "public": true,
+      "tags": ["replay", "session", "play"],
+      "name": "replay"
+    },
+    {
+      "title": "Reports",
+      "public": true,
+      "tags": ["clipboard", "checklist"],
+      "name": "reports"
+    },
+    {
+      "title": "Request",
+      "public": true,
+      "tags": ["arrow", "http", "back and forth"],
+      "name": "request"
+    },
+    {
+      "title": "Reset password",
+      "public": true,
+      "tags": ["key", "secure"],
+      "name": "resetpassword"
+    },
+    {
+      "title": "Resize",
+      "public": true,
+      "tags": ["control", "dots", "corner"],
+      "name": "resize"
+    },
+    {
+      "title": "Resource contention",
+      "public": true,
+      "tags": ["thermometer", "hot", "full", "celsius", "fahrenheit", "fire"],
+      "name": "resource-contention"
+    },
+    {
+      "title": "Resource request",
+      "public": true,
+      "tags": ["boxes", "resources", "document"],
+      "name": "resourcerequest"
+    },
+    {
+      "title": "Restore",
+      "public": true,
+      "tags": ["control", "arrow", "get back", "up", "out"],
+      "name": "restore"
+    },
+    {
+      "title": "Resume",
+      "public": true,
+      "tags": ["control", "continue"],
+      "name": "resume"
+    },
+    {
+      "title": "Revert",
+      "public": true,
+      "tags": ["go back", "stop over", "return"],
+      "name": "revert"
+    },
+    {
+      "title": "Right",
+      "public": true,
+      "tags": ["control", "arrow", "forward", "future"],
+      "name": "right"
+    },
+    {
+      "title": "Right end",
+      "public": true,
+      "tags": ["control", "arrow", "forward", "stop"],
+      "name": "rightend"
+    },
+    {
+      "title": "Robots",
+      "public": true,
+      "tags": ["spider", "crawler"],
+      "name": "robots"
+    },
+    {
+      "title": "Routes",
+      "public": true,
+      "tags": ["pathfinding", "map", "path", "destination", "fold"],
+      "name": "routes"
+    },
+    {
+      "title": "Rss",
+      "public": true,
+      "tags": ["technology", "feed", "news", "waves", "signal", "distribute"],
+      "name": "rss"
+    },
+    {
+      "title": "Sales",
+      "public": true,
+      "tags": ["dollar", "bills", "money", "revenue"],
+      "name": "sales"
+    },
+    {
+      "title": "San Jose",
+      "public": true,
+      "tags": [
+        "location",
+        "california",
+        "united states",
+        "america",
+        "us",
+        "city"
+      ],
+      "name": "san-jose"
+    },
+    {
+      "title": "SaoPaulo",
+      "public": true,
+      "tags": ["city", "location", "brazil", "south america"],
+      "name": "saopaulo"
+    },
+    {
+      "title": "Scale compare",
+      "public": true,
+      "tags": ["weights", "compare"],
+      "name": "scale-compare"
+    },
+    {
+      "title": "Scatter plot",
+      "public": true,
+      "tags": ["chart", "trajectory", "data", "dots"],
+      "name": "scatter-plot"
+    },
+    {
+      "title": "Scissors",
+      "public": true,
+      "tags": ["cut", "paper", "split"],
+      "name": "scissors"
+    },
+    {
+      "title": "Script",
+      "public": true,
+      "tags": ["parchment", "paper", "executable script"],
+      "name": "script"
+    },
+    {
+      "title": "SDK",
+      "public": true,
+      "tags": [
+        "technology",
+        "injection",
+        "dynatrace",
+        "agent",
+        "component",
+        "sdk",
+        "linux",
+        "windows",
+        "c++",
+        "sql",
+        "tool",
+        "software",
+        "development",
+        "kit",
+        "library",
+        "interface"
+      ],
+      "name": "sdk"
+    },
+    {
+      "title": "Magnifying glass",
+      "public": true,
+      "tags": ["look for", "magnify", "search"],
+      "name": "search-magnifyingglass"
+    },
+    {
+      "title": "Seattle",
+      "public": true,
+      "tags": [
+        "city",
+        "location",
+        "united states",
+        "america",
+        "washington",
+        "space needle"
+      ],
+      "name": "seattle"
+    },
+    {
+      "title": "Critical security problem",
+      "public": true,
+      "tags": [
+        "security",
+        "shield",
+        "critical",
+        "risk",
+        "problem",
+        "vulnerability"
+      ],
+      "name": "security-critical"
+    },
+    {
+      "title": "High security problem",
+      "public": true,
+      "tags": [
+        "security",
+        "shield",
+        "high",
+        "risk",
+        "problem",
+        "vulnerability"
+      ],
+      "name": "security-high"
+    },
+    {
+      "title": "Low security problem",
+      "public": true,
+      "tags": ["security", "shield", "low", "risk", "problem", "vulnerability"],
+      "name": "security-low"
+    },
+    {
+      "title": "Medium security problem",
+      "public": true,
+      "tags": [
+        "security",
+        "shield",
+        "medium",
+        "risk",
+        "problem",
+        "vulnerability"
+      ],
+      "name": "security-medium"
+    },
+    {
+      "title": "Send/receive traffic",
+      "public": true,
+      "tags": [
+        "control",
+        "arrow",
+        "back and forth",
+        "transaction",
+        "handshake"
+      ],
+      "name": "send-receive-traffic"
+    },
+    {
+      "title": "Sensor",
+      "public": true,
+      "tags": ["stopwatch", "pressure", "gauge", "measure"],
+      "name": "sensor"
+    },
+    {
+      "title": "Server",
+      "public": true,
+      "tags": ["host", "computers", "pc", "infrastructure", "hardware"],
+      "name": "server"
+    },
+    {
+      "title": "Server bracket",
+      "public": true,
+      "tags": ["box", "container", "wrapper"],
+      "name": "serverbracket"
+    },
+    {
+      "title": "Services",
+      "public": true,
+      "tags": ["cog", "wheel", "configure", "settings", "control"],
+      "name": "services"
+    },
+    {
+      "title": "Session recording",
+      "public": true,
+      "tags": ["microphone", "record", "sound", "audio", "speech", "podcast"],
+      "name": "session-recording"
+    },
+    {
+      "title": "Share",
+      "public": true,
+      "tags": ["social", "control", "distribute"],
+      "name": "share"
+    },
+    {
+      "title": "Shopping cart",
+      "public": true,
+      "tags": ["buy", "chart", "shop", "web"],
+      "name": "shoppingcart"
+    },
+    {
+      "title": "Signal",
+      "public": true,
+      "tags": ["sending", "broadcast", "wireless"],
+      "name": "signal"
+    },
+    {
+      "title": "Singapore",
+      "public": true,
+      "tags": ["location", "city", "country", "asia"],
+      "name": "singapore"
+    },
+    {
+      "title": "Slow",
+      "public": true,
+      "tags": ["turtle", "crawling", "skating"],
+      "name": "slow"
+    },
+    {
+      "title": "Smartscape",
+      "public": true,
+      "tags": ["layers", "dynatrace", "connection", "net", "full stack"],
+      "name": "smartscape"
+    },
+    {
+      "title": "Smiley enraged 1",
+      "public": true,
+      "tags": ["face", "emotion", "unhappy", "angry", "outlined", "mad"],
+      "name": "smiley-enraged-1"
+    },
+    {
+      "title": "Smiley enraged 2",
+      "public": true,
+      "tags": ["face", "emotion", "unhappy", "angry", "filled", "mad"],
+      "name": "smiley-enraged-2"
+    },
+    {
+      "title": "Smiley happy 1",
+      "public": true,
+      "tags": ["face", "emotion", "happy", "glad", "outlined", "enthusiastic"],
+      "name": "smiley-happy-1"
+    },
+    {
+      "title": "Smiley happy 2",
+      "public": true,
+      "tags": ["face", "emotion", "happy", "glad", "filled", "enthusiastic"],
+      "name": "smiley-happy-2"
+    },
+    {
+      "title": "Smiley neutral 1",
+      "public": true,
+      "tags": ["face", "emotion", "neutral", "outlined", "straight face"],
+      "name": "smiley-neutral-1"
+    },
+    {
+      "title": "Smiley neutral 2",
+      "public": true,
+      "tags": ["face", "emotion", "neutral", "filled", "straight face"],
+      "name": "smiley-neutral-2"
+    },
+    {
+      "title": "Smiley OK 1",
+      "public": true,
+      "tags": ["face", "emotion", "happy", "outlined", "smile"],
+      "name": "smiley-ok-1"
+    },
+    {
+      "title": "Smiley OK 2",
+      "public": true,
+      "tags": ["face", "emotion", "happy", "filled", "smile"],
+      "name": "smiley-ok-2"
+    },
+    {
+      "title": "Smiley unhappy 1",
+      "public": true,
+      "tags": ["face", "emotion", "unhappy", "outlined", "smile"],
+      "name": "smiley-unhappy-1"
+    },
+    {
+      "title": "Smiley unhappy 2",
+      "public": true,
+      "tags": ["face", "emotion", "happy", "filled", "smile"],
+      "name": "smiley-unhappy-2"
+    },
+    {
+      "title": "Sorter double",
+      "public": true,
+      "tags": ["control", "arrow", "double", "triangle"],
+      "name": "sorter-double"
+    },
+    {
+      "title": "Sorter down",
+      "public": true,
+      "tags": ["control", "arrow", "down", "triangle"],
+      "name": "sorter-down"
+    },
+    {
+      "title": "Sorter up",
+      "public": true,
+      "tags": ["control", "arrow", "up", "triangle"],
+      "name": "sorter-up"
+    },
+    {
+      "title": "Sorter2 down",
+      "public": true,
+      "tags": ["control", "arrow", "down", "triangle"],
+      "name": "sorter2-down"
+    },
+    {
+      "title": "Sorter2 up",
+      "public": true,
+      "tags": ["control", "arrow", "up", "triangle"],
+      "name": "sorter2-up"
+    },
+    {
+      "title": "Chart stacked area",
+      "public": true,
+      "tags": ["chart"],
+      "name": "stacked-area-chart"
+    },
+    {
+      "title": "Chart stacked bar",
+      "public": true,
+      "tags": ["chart"],
+      "name": "stacked-bar-chart"
+    },
+    {
+      "title": "Star empty",
+      "public": true,
+      "tags": ["star", "favorite"],
+      "name": "star-empty"
+    },
+    {
+      "title": "Stop",
+      "public": true,
+      "tags": ["square", "play"],
+      "name": "stop"
+    },
+    {
+      "title": "Storage cloud",
+      "public": true,
+      "tags": ["data", "store"],
+      "name": "storage-cloud"
+    },
+    {
+      "title": "Storage local",
+      "public": true,
+      "tags": ["data", "store"],
+      "name": "storage-local"
+    },
+    {
+      "title": "Storage",
+      "public": true,
+      "tags": ["data", "store"],
+      "name": "storage"
+    },
+    {
+      "title": "Summary",
+      "public": true,
+      "tags": ["checklist", "test"],
+      "name": "summary"
+    },
+    {
+      "title": "Support contact",
+      "public": true,
+      "tags": ["help", "customer service", "experts", "headset"],
+      "name": "support-contact"
+    },
+    {
+      "title": "Support help",
+      "public": true,
+      "tags": ["contact", "customer service", "life saver", "life belt"],
+      "name": "support-help"
+    },
+    {
+      "title": "Switch",
+      "public": true,
+      "tags": ["infrastructure", "hardware", "network"],
+      "name": "switch"
+    },
+    {
+      "title": "Sydney",
+      "public": true,
+      "tags": ["location", "australia", "opera", "building"],
+      "name": "sydney"
+    },
+    { "title": "Table", "public": true, "tags": ["columns"], "name": "table" },
+    {
+      "title": "Tablet",
+      "public": true,
+      "tags": ["mobile", "device", "iPad"],
+      "name": "tablet"
+    },
+    {
+      "title": "TabletUI",
+      "public": true,
+      "tags": ["mobile", "device", "iPad", "interface"],
+      "name": "tabletui"
+    },
+    { "title": "Tag", "public": true, "tags": ["price tag"], "name": "tag" },
+    {
+      "title": "Team",
+      "public": true,
+      "tags": ["user", "group", "person", "people"],
+      "name": "team"
+    },
+    {
+      "title": "Thermometer",
+      "public": true,
+      "tags": ["temperature", "hot", "cold"],
+      "name": "thermometer"
+    },
+    {
+      "title": "Threadanalysis",
+      "public": true,
+      "tags": ["universal", "threadanaysis", "threads", "services"],
+      "name": "threadanalysis"
+    },
+    {
+      "title": "Thumb down (filled)",
+      "public": true,
+      "tags": ["vote", "voting", "survey", "negative"],
+      "name": "thumb-down-filled"
+    },
+    {
+      "title": "Thumb down",
+      "public": true,
+      "tags": ["vote", "voting", "survey", "negative"],
+      "name": "thumb-down"
+    },
+    {
+      "title": "Thumb up (filled)",
+      "public": true,
+      "tags": ["vote", "voting", "survey", "positive"],
+      "name": "thumb-up-filled"
+    },
+    {
+      "title": "Thumb up",
+      "public": true,
+      "tags": ["vote", "voting", "survey", "positive"],
+      "name": "thumb-up"
+    },
+    {
+      "title": "Tile view",
+      "public": true,
+      "tags": ["squares", "grid", "tiles", "layout", "interface"],
+      "name": "tile-view"
+    },
+    {
+      "title": "Time measurement",
+      "public": true,
+      "tags": ["performance", "stopwatch", "tiles"],
+      "name": "timemeasurement"
+    },
+    {
+      "title": "Traffic light",
+      "public": true,
+      "tags": ["green", "go"],
+      "name": "traffic-light"
+    },
+    {
+      "title": "Tree",
+      "public": true,
+      "tags": ["structure", "data", "flow", "caller", "branches", "nodes"],
+      "name": "tree"
+    },
+    {
+      "title": "Trend chart down",
+      "public": true,
+      "tags": ["chart", "arrow", "descending", "decreasing"],
+      "name": "trend-chart-down"
+    },
+    {
+      "title": "Trend chart up",
+      "public": true,
+      "tags": ["chart", "arrow", "ascending", "increasing"],
+      "name": "trend-chart-up"
+    },
+    {
+      "title": "Trend down",
+      "public": true,
+      "tags": ["chart", "arrow", "descending", "decreasing"],
+      "name": "trend-down"
+    },
+    {
+      "title": "Trend up",
+      "public": true,
+      "tags": ["chart", "arrow", "ascending", "increasing"],
+      "name": "trend-up"
+    },
+    {
+      "title": "Trial day counter",
+      "public": true,
+      "tags": ["calendar", "day", "month", "year"],
+      "name": "trialdaycounter"
+    },
+    {
+      "title": "Trophy outline",
+      "public": true,
+      "tags": ["medal", "prize", "cup", "crown", "onboarding"],
+      "name": "trophy-outline"
+    },
+    {
+      "title": "Trophy",
+      "public": true,
+      "tags": ["medal", "prize", "cup", "crown", "onboarding"],
+      "name": "trophy"
+    },
+    {
+      "title": "Umbrella",
+      "public": true,
+      "tags": ["rain"],
+      "name": "umbrella"
+    },
+    {
+      "title": "Under construction",
+      "public": true,
+      "tags": ["maintenance", "worker", "work in progress"],
+      "name": "underconstruction"
+    },
+    {
+      "title": "Unknown server",
+      "public": true,
+      "tags": ["undefined", "unclear", "questionmark"],
+      "name": "unknown-server"
+    },
+    {
+      "title": "Unknown user",
+      "public": true,
+      "tags": ["undefined", "unclear", "questionmark", "not found", "person"],
+      "name": "unknown-user"
+    },
+    {
+      "title": "Unknown",
+      "public": true,
+      "tags": ["undefined", "unclear", "questionmark", "not found"],
+      "name": "unknown"
+    },
+    {
+      "title": "Unlock",
+      "public": true,
+      "tags": ["open", "login", "password"],
+      "name": "unlock"
+    },
+    {
+      "title": "Unrecognized cloud signet",
+      "public": true,
+      "tags": ["technology", "signet", "unrecognized", "cloud"],
+      "name": "unrecognized-signet"
+    },
+    {
+      "title": "Usage 1",
+      "public": true,
+      "tags": ["hand", "touch", "user", "action", "interaction"],
+      "name": "usage1"
+    },
+    {
+      "title": "Usage 2",
+      "public": true,
+      "tags": ["cursor", "click", "interface", "action", "interaction"],
+      "name": "usage2"
+    },
+    {
+      "title": "User",
+      "public": true,
+      "tags": ["user", "person", "people"],
+      "name": "user-uem"
+    },
+    {
+      "title": "User group",
+      "public": true,
+      "tags": ["person", "people"],
+      "name": "usergroup"
+    },
+    {
+      "title": "Vault safe",
+      "public": true,
+      "tags": ["security", "safe", "protected", "secure", "guarded", "safety"],
+      "name": "vault-safe"
+    },
+    {
+      "title": "vCenter",
+      "public": true,
+      "tags": ["technology", "virtual", "vmware"],
+      "name": "vcenter"
+    },
+    {
+      "title": "Versatile",
+      "public": true,
+      "tags": ["arrow", "direction"],
+      "name": "versatile"
+    },
+    {
+      "title": "video-no",
+      "public": true,
+      "tags": ["video", "novideo", "recording", "norecording", "play"],
+      "name": "video-no"
+    },
+    {
+      "title": "Video",
+      "public": true,
+      "tags": ["spot", "play"],
+      "name": "video"
+    },
+    {
+      "title": "Vienna",
+      "public": true,
+      "tags": ["location", "city", "church"],
+      "name": "vienna"
+    },
+    {
+      "title": "Visual Resolution Path",
+      "public": true,
+      "tags": ["network", "structure", "tree", "problem screen"],
+      "name": "visual-resolution-path"
+    },
+    {
+      "title": "VoIP",
+      "public": true,
+      "tags": ["phone", "call"],
+      "name": "voip"
+    },
+    {
+      "title": "Vulnerable function",
+      "public": true,
+      "tags": ["security", "function", "risk", "problem", "vulnerability"],
+      "name": "vulnerable-function"
+    },
+    {
+      "title": "Web sphere",
+      "public": true,
+      "tags": ["web", "internet", "www", "globe", "net"],
+      "name": "web-sphere"
+    },
+    {
+      "title": "Web",
+      "public": true,
+      "tags": ["web", "internet", "www", "globe", "net"],
+      "name": "web"
+    },
+    {
+      "title": "WebHook",
+      "public": true,
+      "tags": ["technology", "web", "development"],
+      "name": "webhook"
+    },
+    {
+      "title": "Webpages",
+      "public": true,
+      "tags": [
+        "web",
+        "internet",
+        "www",
+        "browser",
+        "net",
+        "window",
+        "interface",
+        "application"
+      ],
+      "name": "webpages"
+    },
+    {
+      "title": "WebServer",
+      "public": true,
+      "tags": ["web", "internet", "data", "host"],
+      "name": "webserver"
+    },
+    {
+      "title": "WiFi bandwidth",
+      "public": true,
+      "tags": ["wireless", "connection", "send"],
+      "name": "wifi-bandwidth"
+    },
+    {
+      "title": "XHR load action",
+      "public": true,
+      "tags": ["xmlhttp", "request", "api", "data", "web", "server", "ajax"],
+      "name": "xhr-load-action"
+    },
+    {
+      "title": "XHR process",
+      "public": true,
+      "tags": ["click", "user action", "xmlhttp", "request"],
+      "name": "xhrprocess"
+    },
+    {
+      "title": "Zoom in",
+      "public": true,
+      "tags": ["user interaction", "chart", "image"],
+      "name": "zoomin-found"
+    },
+    {
+      "title": "Zoom out",
+      "public": true,
+      "tags": ["user interaction", "chart", "image"],
+      "name": "zoomout-notfound"
+    }
+  ],
+  "category": "Resources",
+  "sidenav": {
+    "title": "Resources",
+    "id": "resources",
+    "layout": "overview",
+    "sections": [
+      {
+        "items": [
+          {
+            "title": "Colors",
+            "identifier": "Co",
+            "description": "A collection of all colors we use at Dynatrace. ",
+            "section": "Resources",
+            "link": "/resources/colors",
+            "badge": ["favorite"],
+            "active": false
+          },
+          {
+            "title": "Font",
+            "identifier": "Fo",
+            "description": "Download our fonts here and get a quick overview of our text guidelines.",
+            "section": "Resources",
+            "link": "/resources/font",
+            "badge": [],
+            "active": false
+          },
+          {
+            "title": "Icons",
+            "identifier": "Ic",
+            "description": "On this page you find a list of all available icons.",
+            "section": "Resources",
+            "link": "/resources/icons",
+            "badge": ["favorite"],
+            "active": true
+          },
+          {
+            "title": "Logo",
+            "identifier": "Lo",
+            "description": "On this page you can download various Dynatrace logo packs.",
+            "section": "Resources",
+            "link": "/resources/logo",
+            "badge": [],
+            "active": false
+          },
+          {
+            "title": "UXDK",
+            "identifier": "UX",
+            "description": "A wireframing toolbox to visualize consistent solutions.",
+            "section": "Resources",
+            "link": "/resources/uxdk",
+            "badge": [],
+            "active": false
+          },
+          {
+            "title": "Wallpapers",
+            "identifier": "Wa",
+            "description": "A collection of various wallpapers to use on your devices.",
+            "section": "Resources",
+            "link": "/resources/wallpapers",
+            "badge": [],
+            "active": false
+          }
+        ]
+      }
+    ]
+  }
+}
