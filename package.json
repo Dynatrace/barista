@@ -189,7 +189,7 @@
     "stylelint-scss": "^3.19.0",
     "terser": "^4.8.0",
     "testcafe": "^1.14.2",
-    "testcafe-browser-provider-browserstack": "^1.13.1",
+    "testcafe-browser-provider-browserstack": "^1.15.2",
     "testcafe-reporter-xunit": "^2.1.0",
     "ts-jest": "29.1.1",
     "ts-node": "10.9.1",
