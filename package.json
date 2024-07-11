@@ -188,7 +188,7 @@
     "stylelint-prettier": "^1.2.0",
     "stylelint-scss": "^3.19.0",
     "terser": "^4.8.0",
-    "testcafe": "^1.14.2",
+    "testcafe": "^1.20.1",
     "testcafe-browser-provider-browserstack": "^1.13.1",
     "testcafe-reporter-xunit": "^2.1.0",
     "ts-jest": "29.1.1",
